@@ -1,0 +1,176 @@
+[
+{
+   "slug" : "shopping-silicon-valley",
+   "question" : "Where should a foodie <span class='verb'>shop</span> in Silicon Valley?",
+   "questionVerb" : "shop",
+   "questionPlace" : "<span style='font-size: 90%;'>Silicon Valley</span>"
+},
+{
+   "slug" : "connemara-a-coastal-culture",
+   "question" : "Where can I <span class='verb'>learn</span> about Connemara's coast?",
+   "questionVerb" : "learn",
+   "questionPlace" : "Connemara"
+},
+{
+   "slug" : "budget-foodie-hong-kong",
+   "question" : "Where can I <span class='verb'>eat</span> the best street food in Hong Kong?",
+   "questionVerb" : "eat",
+   "questionPlace" : "<span style='font-size: 90%;'>Hong Kong</span>"
+},
+{
+   "slug" : "paris-for-paris-lovers",
+   "question" : "Where are lovely places to <span class='verb'>visit</span> in Paris?",
+   "questionVerb" : "visit",
+   "questionPlace" : "Paris"
+},
+{
+   "slug" : "an-insiders-guide-to-galway",
+   "question" : "Where can I <span class='verb'>see</span> an insider's view of Galway?",
+   "questionVerb" : "see",
+   "questionPlace" : "Galway"
+},
+{
+   "slug" : "hostess-wine-pairing",
+   "question" : "What wine shall I <span class='verb'>drink</span> with my last Twinkie ever?",
+   "questionVerb" : "drink",
+   "questionPlace" : "Hostess"
+},
+{
+   "slug" : "brooklyn-neighborhood-photography",
+   "question" : "What is it like to <span class='verb'>explore</span> Brooklyn neighborhoods?",
+   "questionVerb" : "explore",
+   "questionPlace" : "Brooklyn"
+},
+{
+   "slug" : "silicon-valley-foodie",
+   "question" : "What is it like to <span class='verb'>eat</span> in the Silicon Valley?",
+   "questionVerb" : "eat",
+   "questionPlace" : "<span style='font-size: 90%;'>Silicon Valley</span>"
+},
+{
+   "slug" : "georgia",
+   "question" : "Where can I <span class='verb'>learn</span> about Georgia?",
+   "questionVerb" : "learn",
+   "questionPlace" : "Georgia"
+},
+{
+   "slug" : "seoul-style",
+   "question" : "What will I <span class='verb'>see</span> on the streets of Seoul?",
+   "questionVerb" : "see",
+   "questionPlace" : "Seoul"
+},
+{
+   "slug" : "brooklyn-flea-market",
+   "question" : "What can I <span class='verb'>buy</span> at the Brooklyn Flea Market?",
+   "questionVerb" : "buy",
+   "questionPlace" : "Brooklyn"
+},
+{
+   "slug" : "nyc-subway-photography",
+   "question" : "What is it like to <span class='verb'>ride</span> the NYC subway?",
+   "questionVerb" : "ride",
+   "questionPlace" : "NYC"
+},
+{
+   "slug" : "galways-hidden-history",
+   "question" : "Where can I <span class='verb'>learn</span> about Galway's hidden history?",
+   "questionVerb" : "learn",
+   "questionPlace" : "Galway"
+},
+{
+   "slug" : "out-about-nyc",
+   "question" : "What is it like to <span class='verb'>explore</span> New York?",
+   "questionVerb" : "explore",
+   "questionPlace" : "New York"
+},
+{
+   "slug" : "shangri-la-paris",
+   "question" : "What is it like to <span class='verb'>stay</span> at the Shangri-La in Paris?",
+   "questionVerb" : "stay",
+   "questionPlace" : "Paris"
+},
+{
+   "slug" : "paris-brett-whiteley",
+   "question" : "What is it like to <span class='verb'>follow</span> Brett Whiteley's art in Paris?",
+   "questionVerb" : "follow",
+   "questionPlace" : "Paris"
+},
+{
+   "slug" : "smorgasburg",
+   "question" : "What can I <span class='verb'>eat</span> at Smorgasburg in Brooklyn?",
+   "questionVerb" : "eat",
+   "questionPlace" : "Brooklyn"
+},
+{
+   "slug" : "budget-london-weekender",
+   "question" : "How can I <span class='verb'>explore</span> London on budget?",
+   "questionVerb" : "explore",
+   "questionPlace" : "London"
+},
+{
+   "slug" : "budapest-the-way-i-see-it",
+   "question" : "Where can I <span class='verb'>learn</span> about living in Budapest?",
+   "questionVerb" : "learn",
+   "questionPlace" : "Budapest"
+},
+{
+   "slug" : "hotel-le-bristol-paris",
+   "question" : "What is it like to <span class='verb'>stay</span> at Hotel Le Bristol in Paris?",
+   "questionVerb" : "stay",
+   "questionPlace" : "Paris"
+},
+{
+   "slug" : "work-portraits",
+   "question" : "Where can I <span class='verb'>view</span> work portraits?",
+   "questionVerb" : "view",
+   "questionPlace" : "Work"
+},
+{
+   "slug" : "study-abroad-tips",
+   "question" : "What are some good <span class='verb'>study</span> abroad tips?",
+   "questionVerb" : "study",
+   "questionPlace" : "World"
+},
+{
+   "slug" : "connemara-flora-fauna-and-fungi",
+   "question" : "Where can I <span class='verb'>view</span> nature photos of Connemara?",
+   "questionVerb" : "view",
+   "questionPlace" : "Connemara"
+},
+{
+   "slug" : "mexico-culture",
+   "question" : "Go <span class='verb'>Local</span>! 19 cultural experiences in Mexico",
+   "questionVerb" : "local",
+   "questionPlace" : "Mexico"
+},
+{
+   "slug" : "berkeley-morsels",
+   "question" : "Seeking Incredible <span class='verb'>Morsels</span> in Berkeley",
+   "questionVerb" : "morsels",
+   "questionPlace" : "Berkeley"
+},
+{
+   "slug" : "field-guide-design",
+   "question" : "<span class='verb'>Art</span>, jewelry and inspiration by a New York musician!",
+   "questionVerb" : "Art",
+   "questionPlace" : "New York"
+},
+{
+   "slug" : "camden-markets",
+   "question" : "What can I <span class='verb'>find</span> at The Camden Markets?",
+   "questionVerb" : "Find",
+   "questionPlace" : "London"
+},
+{
+   "slug" : "blue-bottle-coffee",
+   "question" : "What is the inspiration behind the <span class='verb'>pastries</span> at Blue Bottle?",
+   "questionVerb" : "Pastries",
+   "questionPlace" : "Oakland"
+},
+{
+   "slug" : "feels-like-home-in-paris",
+   "question" : "Where can I <span class='verb'>live</span> like a Parisian for vacation?",
+   "questionVerb" : "Live",
+   "questionPlace" : "Paris"
+}
+]

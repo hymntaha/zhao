@@ -1,0 +1,411 @@
+.share {
+  text-align: left;
+  width: 740px;
+  margin: 0 auto;
+}
+
+.share_header {
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  font-size: 1.5rem;
+  margin: 10px 0 0 0;
+  text-transform: uppercase;
+}
+
+.share_subheader {
+  font-family: 'Georgia-Italic';
+  font-size: 15pt;
+  margin: 10px 0 0 0;
+  text-transform: uppercase;
+}
+
+.share_border {
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #fcfcfc;
+  margin: 0 0 10px 0;
+}
+
+.share label {
+  margin: 0 0 10px 0;
+  font-size: 13pt;
+  text-transform: uppercase;
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  font-size: 14pt;
+}
+
+.share .input-text {
+  display: block;
+  margin: 0 0 10px 10px;
+  padding: 5px 10px;
+  width: 700px;
+  border: 1px solid #b5b5b5;
+}
+
+.share textarea.text {
+  height: 300px;
+}
+
+
+.share span {
+  color: #777;
+  font-family: 'Georgia-Italic';
+  font-size: 11pt;
+  text-transform: none;
+}
+
+.share .rich {
+  float: right;
+  background-color: #f2f2f2;
+  border: 1px solid #e5e5e5;
+  font-size: 11pt;
+  margin: 0 20px 5px 0;
+}
+
+.rich ul {
+  padding: 2px;
+}
+
+.rich li {
+  cursor: pointer;
+  float: left;
+  list-style-type: none;
+  padding: 0 10px;
+  border: 1px solid #f5f5f5;
+}
+
+.rich li:hover {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-shadow: inset 0 0 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.share .words {
+  float: right;
+  margin: 4px 30px 0 0;
+}
+
+.share .tags {
+  max-width: 700px;
+}
+
+.share .tag {
+  float: left;
+  color: #fff;
+  display: none;
+  background-color: #de7267;
+  padding: 5px 10px;
+  margin: 5px 5px 0 0;
+  border-radius: 5px;
+}
+
+.share .tag p,.search .tag p {
+  float: left;
+  margin: 0;
+}
+
+.share .tag_close,
+.search .tag_close {
+  cursor: pointer;
+  float: right;
+  color: #666666;
+  padding: 0 5px;
+  margin: 0 0 0 -8px;
+  background-color: #f2f2f2;
+  border-radius: 9px;
+  line-height: 14pt;
+  font-size: 11pt;
+}
+
+.search .tag_close {
+  margin: 0 0 0 10px;
+}
+
+.optional label {
+  float: left;
+  margin: 5px 10px 5px 0;
+  width: 160px;
+  color: #b5b5b5;
+}
+
+.optional .input-text {
+  display: block;
+  margin: 0 0 0 160px;
+  width: 520px;
+}
+
+.share .button {
+  float: right;
+  margin: 10px 10px 0 0;
+}
+
+.share .images {
+  width: 750px;
+}
+
+.share .image_outer {
+  float: left;
+  width: 236px;
+  height: 350px;
+  margin: 0 0 50px 5px;
+}
+
+.share .image {
+  text-align: center;
+  color: #dfdfdf;
+  border: 3px dashed #dfdfdf;
+  height: 280px;
+  text-align: center;
+  overflow: hidden;
+  cursor: move;
+}
+
+.share .image_outer input {
+  width: 200px;
+  margin: 5px 0 0 10px;
+}
+
+.share .image img {
+  width: 230px;
+  overflow: none;
+}
+
+.share .upload_button {
+  float: left;
+  cursor: pointer;
+  width: 200px;
+  margin: 10px;
+}
+
+.real_upload_button {
+  visibility: hidden;
+  display: none;
+}
+
+.images .details {
+  font-size: 9pt;
+  color: #b5b5b5;
+  text-align: center;
+}
+
+.images .caption {
+  display: block;
+}
+
+.adminStatus {
+  float: right;
+  margin: 5px;
+}
+
+.adminStatus li {
+  float: left;
+  cursor: pointer;
+  padding: 5px 10px;
+  list-style-type: none;
+  border: 1px solid #666;
+}
+
+.adminStatus .active {
+  background-color: #666;
+  color: #fff;
+}
+
+
+.comment {
+  padding: 10px;
+}
+
+.comment div:last-child {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.comment span {
+  margin: 0 0 0 30px;
+}
+
+#map_canvas {
+  height: 400px;
+  width: 700px;
+  margin: 5px 0 10px 20px;
+  font-size: 10pt;
+}
+
+.share .buttons {
+  margin-bottom: 7ex;
+}
+
+.share .delete {
+  background-color: transparent !important;
+  background-image: url("/img/sprite/search.png");
+  background-position: 0 0;
+  cursor: pointer;
+  height: 23px;
+  position: absolute;
+  width: 23px;
+}
+
+.share .facebook-share.hidden {
+  display: none;
+}
+
+.share .facebook-share {
+  display: block;
+  width: 500px;
+}
+
+.share .accepted-message,
+.share .rejected-message.hidden {
+  display: none;
+}
+
+.share .rejected-message,
+.share .accepted-message {
+  width: 800px;
+}
+
+.rejected-message .rejected-content,
+.accepted-message .accepted-content {
+  height: 80%;
+}
+
+.rejected-message .rejected-textarea,
+.accepted-message .accepted-textarea {
+  width: 100%;
+  height: 100%;
+}
+
+.share .browser-message.hidden {
+  display: none;
+}
+
+.share .browser-message {
+  margin: 15px 0;
+  font-family: 'Georgia-Italic';
+  background-color: #DC3E2E;
+  color: white;
+  padding: 15px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.fb-place {
+  height: 60px;
+  position: relative;
+  display: block; 
+}
+
+.fb-place .ui-button {
+  
+}
+
+.fb-query-div .fb-check-div {
+  display: block;
+  height: 40px;
+  margin-left: 220px;
+  position: relative;
+  width: 140px;
+}
+
+.fb-place .fb-button-right {
+  display: block;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 0;   
+}
+
+.fb-results .ajax-loader {
+  margin: auto;
+  display: block;
+}
+
+.fb-place .fb-place-title {
+  display: table-cell;
+  height: 45px;
+  overflow: hidden;
+  width: 230px;
+  position: relative;
+  vertical-align: middle;
+}
+
+.fb-query-div {
+  margin-bottom: 50px;
+}
+
+.fb-query-div input {
+  display: inline-block;
+}
+
+.fb-query-div label {
+  display: inline-block;
+  width: 200px;
+}
+
+.fb-query-div .fb-search-button {
+  display: inline-block;
+  position: relative;  
+  top: 40px;
+}
+
+.fb-query-div .fb-check {
+  
+}
+
+.redirect {
+  text-align: left;
+  width: 740px;
+}
+
+.redirect .hidden {
+  display: none;
+}
+
+.redirect .redirect-text {
+  margin: 10px 0 0 0;  
+}
+
+.redirect .redirect-button.ui-button.ui-state-hover {
+  background: #F8F7F6 url(images/ui-bg_fine-grain_10_f8f7f6_60x60.png) 50% 50% repeat !important;
+  color: #654B24 !important;
+}
+
+.redirect .message-textarea {
+  width: 100%;
+  height: 200px;
+}
+
+.redirect .redirect-text {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.redirect .message-header {
+  margin-top: 20px;
+}
+
+.redirect .facebook-message-help {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.share-preview {
+  margin-bottom: 14ex;
+}
+
+.share-preview.hidden {
+  display: none;
+}
+
+.share-preview-title {
+  font-family: 'Georgia-Italic';
+  font-size: 30pt;
+  margin: 10px 0 0;
+  text-transform: uppercase;
+}
+
+.share-preview .text {
+  float: none !important;
+}
+
+.freshen-wrapper {
+  border: 1px solid red;
+  margin-bottom: 1rem;
+}

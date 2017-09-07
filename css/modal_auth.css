@@ -1,0 +1,77 @@
+
+
+.modal-auth {
+  display: none;
+}
+
+.modal-auth .auth-toggle {
+  display: none;
+}
+
+.register {
+  float: right;
+}
+
+.button-register,
+.button-login {
+  float: right;
+}
+
+.modal-separator-a,
+.modal-separator-b {
+  float: right;
+  background-color: #dcdcdc;
+  width: 1px;
+  height: 250px;
+  margin: 0 0 0 5px;
+}
+
+.modal-separator-b {
+  background-color: #fcfcfc;
+}
+
+.modal-auth .button {
+  margin: 10px;
+  font-size: 1.125rem;
+}
+
+.login {
+  text-align: center;
+}
+
+.login img {
+  margin: 30px 0 0 0;
+  border: 0;
+}
+
+.modal-auth .forgot {
+  float: right;
+  margin: 0 5px 0 0;
+}
+
+.modal-auth .forgot a {
+  text-decoration: dotted;
+  color: #333;
+}
+
+/* Mobile */
+
+@media screen and (max-width : 671px) {
+
+  .register,
+  #register_submit,
+  .button.button-login,
+  .modal-auth .forgot {
+    float: none;
+  }
+
+  .modal-separator-a,
+  .modal-separator-b {
+    display: none;
+  }
+
+  .login {
+    text-align: left;
+  }
+
+}

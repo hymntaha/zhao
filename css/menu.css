@@ -1,0 +1,37 @@
+
+.menu {
+  display: none; 
+  position: absolute;
+  top: 10px;
+  left: 400px;
+  border: 1px solid #666;
+  padding: 5px 0;
+  background-color: #fff;
+}
+
+.menu-separator {
+  border-bottom: 1px solid #f2f2f2;
+  height: 5px;
+  margin: 0 5px 5px 5px;
+}
+
+.menu-option {
+  margin: 0;
+  cursor: pointer;
+  padding: 5px 20px;
+  list-style-type: none;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.menu-active {
+  color: #fff;
+  background-color: #666;
+}
+
+.menu-hover {
+  background-color: #f4bcb6;
+  border-top: 1px solid #DC3E2E;
+  border-bottom: 1px solid #DC3E2E;
+}
+

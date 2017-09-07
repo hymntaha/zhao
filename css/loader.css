@@ -1,0 +1,21 @@
+
+.loader {
+  display: none; 
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  text-align: center;
+  background-color: #e44d38;
+  padding: 10px 10px;
+  font-family: UniversLT-CondensedBold;
+  font-size:11pt;
+  text-transform: uppercase;
+  color: #fff;
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.2); 
+  z-index: 2000;
+}
+
+.loader li {
+  list-style-type: none;
+}
+

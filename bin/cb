@@ -1,0 +1,63 @@
+#!/bin/bash
+
+# write a new cachebuster file
+
+usage="usage: $0 [--help] [<cachebuster>]"
+
+ARGS=`getopt -o "h" -l "help" -- "$@"`
+
+#Bad arguments
+if [ $? -ne 0 ];
+then
+  exit 1
+fi
+
+eval set -- "$ARGS"
+
+while true;
+do
+  case "$1" in
+    -h|--help)
+      echo "$usage"
+      exit 2
+      shift;;
+    --)
+      shift
+      break;;
+  esac
+done
+
+abspath="$(cd "${0%/*}" 2>/dev/null; echo "$PWD"/"${0##*/}")"
+outdir=$(dirname $(dirname $abspath))
+outfile="$outdir/cachebust.php"
+
+if [ $# -gt 0 ]; then
+  hash=$1
+else
+  hash=$(cd "${0%/*}" 2>/dev/null; git log --pretty=format:'%h' -n 1)
+fi
+
+if [ $(grep -c $hash $outfile) -gt 0 ]; then
+  oldhash=$(grep $hash cachebust.php |awk 'BEGIN { FS = "'"'"'" }; {print $4}')
+  hashbase=${oldhash%.*}
+  hashnum=${oldhash##*.}
+  if [ $hashnum -gt 0 ]; then
+    (( "hashnum += 1" ))
+  else
+    hashnum=1
+  fi
+  hash="${hashbase}.${hashnum}"
+fi
+
+(
+cat <<EOD
+<?php 
+  define('CACHEBUST', '$hash');
+EOD
+) > $outfile
+
+if [ $? -eq 0 ]; then
+  echo "Wrote $hash to $outfile"
+else
+  echo "Oops!  Something went wrong, check for error ouput."
+fi

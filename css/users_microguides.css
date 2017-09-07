@@ -1,0 +1,214 @@
+/* For users microguides under bio */
+.users-microguides {
+  margin-bottom: -40px !important;
+}
+
+.users-microguides .header {
+  width: 100%;
+  margin: 20px 0 5px 0;
+  padding: 20px 0 0 0;
+}
+
+.users-microguides .header hr {
+  padding: 0;
+  border: none;
+  border-top: medium double #bdbdbd;
+  color: #333;
+  text-align: center;
+}
+
+.users-microguides .header hr:after {
+    display: inline-block;
+    position: relative; 
+    top: -0.7em;  
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #F1F1F1;
+    font-family: alternate-gothic-no-3-d,sans-serif;
+}
+
+.users-microguides .microguides-column {
+  float: left;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.users-microguides .microguides-header {
+  font-family: "abril-display", serif;
+  font-size: 1.25rem;
+  padding-bottom: 15px;
+}
+
+.users-microguides .microguides-header .button {
+  margin-left: 3rem;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+}
+
+.users-microguides .microguides-column img {
+  width: 100%;
+}
+
+.users-microguides .microguides-column.microguides-small-column {
+  
+}
+
+.users-microguides .microguides-column.microguides-small-column .small-box{
+  
+}
+
+.users-microguides .microguides-small-column .microguide-header {
+  background-color: #000;
+  height: 5px;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+.users-microguides .microguides-column .img-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.users-microguides .microguides-column.microguides-small-column .small-box .slide-show-link{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.users-microguides .microguides-column.microguides-small-column .small-box .slide-show-icon{
+  background-image: url("/img/sprite/home-top-elements.png?r=1");
+  background-repeat: no-repeat;
+  background-size: 430px 200px;
+  background-position: -120px -130px;
+  height: 43px;
+  margin: -27px 0 0 -27px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 43px;
+}
+
+.users-microguides .microguides-column.microguides-small-column:hover .small-box .slide-show-icon{
+  background-position: -170px -130px;
+}
+
+.users-microguides .microguides-column .microguide-info {
+  background-color: #eae9e9;
+  border-color: #bdb9b9;
+  border-top: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  margin-top: -8px;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 75px;
+  overflow: hidden;
+}
+
+.users-microguides .microguides-column .microguide-info .microguide-title {
+  font-family: "abril-display", serif;
+}
+
+.users-microguides .microguides-small-column .microguide-info .microguide-title {
+  font-size: 12pt;
+}
+
+.users-microguides .microguides-column .microguide-info .author {
+  font-size: .8125rem;
+}
+
+.users-microguides .microguides-column .story-box .img-container{
+  cursor: pointer;
+}
+
+.users-microguides .microguides-column .story-box .microguide-title{
+  cursor: pointer;
+  color: #222;
+}
+
+.users-microguides .microguides-column .story-box .microguide-title:hover{
+  color: #7D7D7D;
+}
+
+/* Five column */
+@media screen  {
+
+  .users-microguides .microguides-small-column {
+    width: 18.0326718068357%;
+    margin-left: 1.6393338006214%;
+  }
+  
+}
+
+/* Mobile */
+@media screen and (max-width : 671px) {
+
+  .users-microguides .microguides-small-column .microguide-header {
+    background-color: #000;
+    height: 5px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+  }
+
+  .users-microguides .microguides-small-column .microguide-info .microguide-title {
+    font-size: .8rem;
+  }
+
+  .users-microguides .microguides-column .microguide-info .author {
+    font-size: .65rem;
+  }
+
+  .users-microguides .microguides-small-column {
+    width: 31.1473422118071%;  
+    margin-left: 1.6393338006214%;
+  }
+
+  .users-microguides .microguides-column.microguides-small-column .small-box .slide-show-icon {
+    background-image: url('/img/sprite/home-top-elements.png?r=1');
+    background-repeat: no-repeat;
+    background-position: -83px -91px;
+    background-size: 300px 140px;
+    height: 30px;
+    width: 31px;
+    margin: -22px 0 0 -15px;
+  }
+
+  .users-microguides .microguides-column.microguides-small-column .small-box:hover .slide-show-icon {
+    background-position: -118px -91px;
+  }
+
+}
+
+/* Six column */
+@media screen and (min-width : 1568px) {
+
+  .users-microguides .microguides-small-column {
+    width: 15.0684090161615%;
+    margin-left: 1.3698553651056%;
+  }
+  
+}
+
+
+/* Seven column */
+
+@media screen and (min-width : 1792px) {
+
+  .users-microguides .microguides-small-column {
+    width: 12.9411151670521%;
+    margin-left: 1.1764650151866%;
+  }
+
+}
+
+/* IE8 */
+@media \0screen {  
+
+  .users-microguides .microguides-column.microguides-small-column .small-box .slide-show-icon {
+    background-image: url('/img/sprite/home-top-elements1x.png?r=1');
+  }
+
+}  

@@ -1,0 +1,771 @@
+.modal-microguide {
+  display: none;
+  z-index: 25;
+  width:100%;
+  position: fixed;
+  height: 90%;
+  top: 5%;
+  
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+.modal-microguide.hidden {
+  top: -500px; 
+}
+
+.modal-microguide .microguide-container {
+  position: relative;
+  margin: auto;
+  width: 92.14071856287424%; /* 1231 / 1336 */
+  height: 100%;
+  background-color: #242c32;
+}
+
+.modal-microguide .modal-header {
+  background-color: #242c32;
+  color: #FFFFFF;
+}
+
+.modal-microguide .modal-header .left {
+  margin: 10px 0 0 0.81234768480909829406986190089358%; /* 10 / 1231 */
+  width: 15%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.modal-microguide .modal-header .center {
+  margin: 0 auto 1em auto;
+  width: 70%;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+
+.modal-microguide .modal-header .right {
+  display: inline-block;
+  margin: 10px 0.81234768480909829406986190089358% 0 0; /* 10 / 1231 */
+  width: 12%;
+  vertical-align: top;
+}
+
+.modal-microguide .modal-header .author {
+  position: relative;
+  top: 0.4em;
+  left: 0.5em;
+}
+
+.modal-microguide .modal-header .byc-modal-icon {
+  float: left;
+}
+
+.modal-microguide .modal-header .modal-title {
+  font-family: "abril-display";
+  font-size: 30px;
+  color: #FFFFFF;
+  position: relative;
+  top: 0.3em;
+  
+}
+
+.modal-microguide .modal-header .modal-title a.major-nav {
+  color: #FFF;
+}
+
+.modal-microguide .modal-header .modal-title a.major-nav:hover {
+  color: #7d7d7d;
+}
+
+.modal-microguide .modal-header .close {
+  float: right;
+}
+
+.modal-microguide .modal-header .close-button {
+  cursor: pointer;
+}
+
+.modal-microguide .modal-body {
+  width: 100%;
+  height: 83%;
+  overflow: hidden; 
+  position: relative;
+  background-color: #F1F1F1;
+}
+
+.modal-microguide .image-container {
+  position: relative;
+  float: left;
+  width: 55.158406%; /* 679 / 1231 */
+  color: #FFFFFF;
+  height: 100%;
+  text-align: center;
+  z-index: 2;
+}
+
+.modal-microguide .image-container .image-caption-container {
+  display: inline-block;
+  position: absolute;
+  z-index: 22;
+  bottom: 1em;
+  width: 100%;
+  left: 0;
+}
+
+.modal-microguide .image-container .image-caption-container .image-caption {
+  width: auto;
+  height: auto;
+  padding: 0 3ex;
+  color: #000;
+  font-weight: normal;
+  font-size: 13px;
+  position: relative;
+  top: 0;
+  left: 0;
+  text-align: center;
+  white-space: normal;
+  line-height: 2.4ex;
+  overflow: hidden;
+}
+
+.modal-microguide .text-container {
+  width: 41.841592%; /* (552 / 1231) - 2 (for padding) */
+  background-color: #F1F1F1;
+  float: left;
+  height: 100%;
+  text-align: left;
+  padding-right: 3%;
+}
+
+.modal-microguide  .text-header {
+  margin-bottom: 1em;
+}
+
+.modal-microguide  .text-header .info-text {
+  font-size: 15px;
+  font-family: "alternate-gothic-no-3-d", sans-serif;
+}
+
+.modal-microguide .text-header .microguide-position {
+  position: absolute;
+  right: 0;
+  padding: 20px 20px 0 0;
+  font-size: 16pt;
+}
+  
+.modal-microguide  .text-header .info-box {
+  padding: 0.5em 0;
+  width: 80%;
+  position: relative;
+  left: 0;
+  margin-bottom: 1em;
+}
+
+.modal-microguide .nav-arrows.fullsize {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.modal-microguide .nav-arrows .nav-container {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.modal-microguide  .nav-arrows .left-arrow {
+  position: absolute;
+  width: 3.929640719%;
+  height: 100%;
+  top: 0;
+  left: -3.929640719%;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.modal-microguide  .nav-arrows .left-arrow:hover {
+  opacity: 1;
+}
+
+.modal-microguide  .nav-arrows .right-arrow {
+  position: absolute;
+  width: 3.929640719%;
+  height: 100%;
+  right: -3.929640719%;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.modal-microguide  .nav-arrows .right-arrow:hover {
+  opacity: 1;
+}
+
+.modal-microguide .info-box .address {
+  color: #E43A3D;
+  font-size: 13px;
+}
+
+.modal-microguide .info-box .url {
+  color: #E43A3D;
+  font-size: 13px;
+}
+
+.modal-microguide .text-container .text-body {
+  position: relative;
+  z-index: 1;
+}
+
+.modal-microguide .text-body .story-title {
+  font-family: abril-display, serif;
+  font-size: 22px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.modal-microguide .text-body .story-title a {
+  color: black;
+}
+
+.modal-microguide .text-body .story-title a:hover {
+  text-decoration: underline;
+}
+
+.modal-microguide .text-body .author {
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+  
+}
+
+.modal-microguide .text-body .author span:hover{
+  color: #000;
+}
+
+.modal-microguide .modal-header .author span:hover{
+  color: #FFF;
+}
+
+.modal-microguide .modal-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #242c32;
+  overflow: hidden;
+  z-index: 40;
+}
+
+.modal-microguide .modal-footer .available-on {
+  position: relative;
+  display: inline-block;
+  left: 0;
+  margin: 0;
+  width: 55.158406%;
+}
+
+.modal-microguide .modal-footer .available-on .available-on-text {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "alternate-gothic-no-3-d", sans-serif;
+  font-size: 1.5em;
+  margin-left: 10px;
+  vertical-align: middle;
+  position: relative;
+  top: 2px;
+}
+
+.modal-microguide .modal-footer .available-on icon {
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.modal-footer .modal-calls-to-action {
+  display: inline-block;
+  width: 44%;
+}
+
+.modal-microguide .image-container .story-image {
+  height: 90%;
+  text-align: center;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.modal-microguide .image-container .story-img-container {
+    display: block;
+    height: 100%;
+    line-height: 2000px;
+    margin-top: -1000px;
+    position: relative;
+    z-index: 20;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+
+.modal-microguide .image-container .story-image img {
+  max-width: 95%;
+  max-height: 93%;
+  vertical-align: middle;
+  z-index: 20;
+}
+
+.modal-microguide .modal-share {
+  line-height: 48px;
+  display: inline-block;
+}
+
+.modal-microguide .share-this-microguide {
+  color: white;
+  text-transform: uppercase;
+  font-family: "alternate-gothic-no-3-d", sans-serif;
+}
+
+.modal-microguide .facebook-share {
+  background: url("/img/sprite/socialshare.png") no-repeat scroll 0 0 transparent;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.modal-microguide .facebook-share:hover {
+  background: url("/img/sprite/socialshare.png") no-repeat scroll -58px 0 transparent;
+}
+
+.modal-microguide .twitter-share {
+  background: url("/img/sprite/socialshare.png") no-repeat scroll -30px 0 transparent;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.modal-microguide .twitter-share:hover {
+  background: url("/img/sprite/socialshare.png") no-repeat scroll -88px 0 transparent;
+}
+
+.modal-microguide .modal-share .modal-share-image {
+  vertical-align: middle;
+}
+
+.modal-microguide .modal-bravo  {
+  height: 1.375em;
+  padding: 0.2em;
+  position: relative;
+  right: 1em;
+  top: 0.7em;
+}
+  
+.modal-microguide .modal-bravo-container {
+  line-height: 48px;
+  height: 48px;
+  float: right;
+}
+
+.modal-microguide .thumb-column {
+  width: 14.828209764918625678119349005425%;/* 82/553 */
+  float: left;
+  margin-right: 2em;
+  position: relative;
+  z-index: 10;
+}
+
+.modal-microguide .thumb-column img {
+  float: left;
+  width: 100%;
+  cursor: pointer;
+}
+
+.modal-microguide .thumb-image {
+  margin-bottom: 10px;
+  max-height: 61px; 
+  overflow: hidden;
+}
+
+.modal-microguide .thumb-column .faded {
+  opacity: 0.4;
+}
+
+.modal-microguide .thumb-row {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  z-index: 20;
+  margin-bottom: 3%;
+  overflow: hidden;
+}
+
+.modal-microguide .thumb-row img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  vertical-align: bottom;
+}
+
+.modal-microguide .thumb-row .thumb-image {
+  display: inline-block;
+  overflow: hidden;
+  width: 18%;
+  position: relative;
+  vertical-align: middle;
+}
+
+.modal-microguide .thumb-row .faded {
+  opacity: 0.4;
+}
+
+.modal-trailing-images {
+  display: none;
+}
+
+.mobile {
+  display: none;
+}
+
+/* ipad fixes */
+@media screen and (max-device-width: 895px) {
+  .modal-microguide .image-container .story-img-container {
+    line-height: 1em;
+    margin-top: 0;
+    position: static;
+  }
+}
+
+.modal-microguide .image-container .nav-arrows {
+  display: none;
+}
+
+/* Mobile */
+
+@media screen and (max-width : 671px) {
+
+  body.modal-open {
+    overflow: auto;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .fullsize {
+    display: none !important;
+  }
+
+  .modal-microguide {
+    width:100%;
+    position: absolute;
+    top: 0;
+    height: auto;
+  }
+
+  .modal-microguide .microguide-container {
+    width: 100%;
+  }
+
+  .modal-microguide .modal-header {
+    white-space: nowrap;
+    padding: .4em;
+  }
+
+  .modal-microguide .modal-header .left {
+    display: none;
+    float: none;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+  }
+
+  .modal-microguide .modal-header .center {
+    width: 85%;
+    text-align: left;
+    display: inline-block;
+    white-space: normal;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+  }
+
+  .modal-microguide .modal-header .right {
+    width: 12%;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+  }
+
+  .modal-microguide .modal-header .byc-modal-icon {
+    float: none;
+    width: 100%;
+  }
+
+  .modal-microguide .modal-header .modal-title {
+    font-size: 1em;
+    position: static;
+  }
+
+  .modal-microguide .modal-header .author {
+    font-size: .8em;
+    position: static;
+  }
+
+  .modal-microguide .modal-header img.close-button {
+    width: 27px;
+  }
+
+  .modal-microguide .image-container {
+    float: none;
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .modal-microguide .image-container .story-img-container {
+    height: normal;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    position: static;
+  }
+
+  .modal-microguide .image-container .story-img-container .story-image.main {
+    background-color: #242c32;
+  }
+ 
+  .modal-microguide .image-container .story-image {
+    height: auto;
+    width: 100%;
+    vertical-align: baseline;
+  }
+
+  .modal-microguide .image-container .story-image img {
+    max-width: 100%;
+    height: 250px;
+  }
+
+  .modal-microguide  .text-header,
+  .modal-microguide .thumb-column {
+    display: none;
+  }
+
+  .modal-microguide .text-container {
+    width: 100%;
+    float: none;
+    overflow: auto;
+    height: auto;
+    text-align: left;
+  }
+
+  .modal-microguide .text-container .text-body {
+    width: 95%;
+    float: none;
+    margin: 0;
+    padding: .5em;
+  }
+
+  .modal-microguide .text-body .author {
+    padding: 0;
+  }
+
+  .modal-microguide .text-body .date {
+    font-size:11px;
+    color: #7d7d7d;
+    font-family: Georgia;
+    font-style: italic;
+  }
+
+  .modal-microguide .text-body p:first-child {
+    margin-top: .4em;
+  }
+
+  .modal-body .modal-calls-to-action {
+    position: static;
+    display: block;
+    background-color: #cdcdcd;
+    width: 100%;
+  }
+
+  .modal-microguide .modal-footer {
+    position: relative;
+    background-color: white;
+    height: 2000px;
+  }
+
+  .modal-microguide .modal-share {
+    line-height: normal;
+    padding: .2em;
+  }
+
+  .modal-microguide .mobile .available-on {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .modal-microguide .modal-bravo {
+    position: static;
+  }
+
+  .modal-microguide .modal-bravo-container {
+    line-height: normal;
+    height: auto;
+  }
+
+  .modal-microguide .facebook-share {
+    background: url("/img/sprite/mobile_socialshare.png?4") no-repeat scroll 0 0 transparent;
+    background-size: 122px 27px;
+  }
+
+  .modal-microguide .facebook-share:hover {
+    background: url("/img/sprite/mobile_socialshare.png?4") no-repeat scroll -62px 0 transparent;
+    background-size: 122px 27px;
+  }
+
+  .modal-microguide .twitter-share {
+    background: url("/img/sprite/mobile_socialshare.png?4") no-repeat scroll -30px 0 transparent;
+    background-size: 122px 27px;
+  }
+
+  .modal-microguide .twitter-share:hover {
+    background: url("/img/sprite/mobile_socialshare.png?4") no-repeat scroll -93px 0 transparent;
+    background-size: 122px 27px;
+  }
+
+  .modal-microguide .share-this-microguide {
+    font-size: .9em;
+    margin-right: .5em;
+    color: #242C32;
+  }
+
+  .modal-trailing-images {
+    display: block;
+    background-color: white;
+  }
+
+  .modal-trailing-images .image-container {
+    margin-bottom: .5em;
+  }
+
+  .modal-trailing-images {
+    padding-bottom: .5em;
+  }
+
+  .modal-microguide .image-container .image-caption-container {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: grey;
+    opacity: 0.7;
+  }
+
+  .modal-microguide .image-container .image-caption-container .image-caption {
+    color: #fff;
+  }  
+
+  .modal-microguide .nav-arrows.fullsize {
+    display: none;
+  }
+
+  .modal-microguide .image-container .nav-arrows {
+    display: block;
+    float: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+  }
+
+  .modal-microguide .image-container .nav-arrows .nav-container {
+    
+  }
+
+  .modal-microguide .microguide-position {
+    position:relative;
+    display: inline-block;
+  }
+
+  .modal-microguide  .nav-arrows .left-arrow {
+    background-image: url("/img/sprite/arrows-bravo.png?r=1");
+    background-size: 188px 255px;
+    background-position: -30px -5px;
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 25px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+
+  .modal-microguide  .nav-arrows .left-arrow:hover {
+    background-position: -30px -35px;
+  }
+
+  .modal-microguide  .nav-arrows .right-arrow {
+    background-image: url("/img/sprite/arrows-bravo.png?r=1");
+    background-size: 188px 255px;
+    background-position: -60px -5px;
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 25px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+
+  .modal-microguide  .nav-arrows .right-arrow:hover {
+    background-position: -60px -35px;
+  }
+
+  .modal-microguide .modal-footer .available-on, 
+  .modal-microguide .modal-footer .modal-calls-to-action {
+    display: none;
+  }
+  
+}
+
+/* short- and narrow-screen fixes */
+@media screen and (min-width : 672px) and (max-height : 580px) {
+  .modal-calls-to-action {
+    display: none;
+  }
+}
+
+@media screen and (min-height : 750px) {
+  .modal-body .modal-calls-to-action {
+    bottom: 2%;
+  }
+}
+
+@media screen and (min-width : 672px) and (max-width: 975px) {
+
+  /* hides the BYC Microguide icon to free up more width for long titles */
+
+  .modal-microguide .modal-header .left {
+    display: none;
+  }
+  .modal-microguide .modal-header .center {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width : 672px) {
+  .back-to-top {
+    display: none;
+  }
+}
+
+/* IE8 */
+@media \0screen {  
+
+  .modal-microguide  .nav-arrows .left-arrow,
+  .modal-microguide  .nav-arrows .right-arrow {
+    background-image: url('/img/sprite/arrows-bravo1x.png?r=1');
+  }
+}

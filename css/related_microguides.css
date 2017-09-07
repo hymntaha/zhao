@@ -1,0 +1,220 @@
+/* Featured microguides */
+
+.related-microguides {
+  max-width: 800px;
+  width: 100%;
+  margin: 20px auto 0 auto;
+}
+
+.related-microguides .related-microguides-header {
+  width: 50%;
+}
+
+.local-stories-header {
+  width: 100%;
+  margin: 20px 0 5px 0;
+  padding: 20px 0 0 0;
+}
+
+.related-microguides .related-microguides-row {
+  margin-top: 0;
+}
+
+.related-microguides h5 {
+  font-size: 1.4rem;
+  font-family: abril-display, serif;
+  font-style: italic;
+  font-weight: normal;
+  margin: 0;
+}
+
+.related-microguides .border-light {
+  margin-bottom: 10px;
+}
+
+.related-microguides .related-microguides-column {
+  float: left;
+  margin-bottom: 25px;
+  width: 31.1473422118071%;  
+  margin-left: 1.6393338006214%;
+  position: relative;
+}
+
+.related-microguides .related-microguides-column.related-microguides-column-0 {
+  margin-left: 0;
+}
+
+.related-microguides .microguides-header {
+  font-family: "abril-display", serif;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+.related-microguides .related-microguides-column img {
+  width: 100%;
+}
+
+.related-microguides .related-microguides-column.microguides-small-column {
+  
+}
+
+.related-microguides .related-microguides-column.microguides-small-column .small-box{
+  
+}
+
+.related-microguides .related-microguides-column.microguides-large-column {
+
+}
+
+.related-microguides .related-microguides-column .microguide-header {
+  background-color: #000;
+  width: 40%;
+  text-align: center;
+  padding-top: 1%; /* Vertical align hack. */
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.related-microguides .related-microguides-column .large-box{
+  width: 40%;
+  position: relative;
+}
+
+.related-microguides .related-microguides-column .img-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.related-microguides .related-microguides-column .large-box .slide-show-link {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.related-microguides .related-microguides-column .large-box .slide-show-icon-wrapper {
+  position: absolute;
+  top: 50%;
+  margin: -25px auto 0;
+  width: 100%;
+  text-align: center;
+}
+
+.related-microguides .related-microguides-column .large-box .slide-show-icon {
+  display: inline-block;
+  background-image: url("/img/sprite/home-top-elements.png?r=1");
+  background-repeat: no-repeat;
+  background-size: 430px 200px;
+  background-position: -118px -128px;
+  height: 46px;
+  width: 46px;
+}
+
+.related-microguides .related-microguides-column .large-box:hover .slide-show-icon {
+  background-position: -168px -128px;
+}
+
+.related-microguides .related-microguides-column .microguide-info {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #bdb9b9;
+  border-color: #bdb9b9;
+  border-left: transparent;
+  border-radius: 0 4px 4px 0;
+  margin-top: -8px;
+  padding: 5px 10px 0 10px;
+  overflow: hidden;
+  left: 40%;
+  bottom: 10%;
+}
+
+.related-microguides .related-microguides-column .microguide-info .microguide-title {
+  font-family: "abril-display" serif;
+  font-size: 1em;
+  overflow: hidden;
+}
+
+.related-microguides .related-microguides-column .microguide-info .author {
+  font-size: 13px;
+}
+
+.related-microguides .related-microguides-column .img-container{
+  cursor: pointer;
+}
+
+.related-microguides .related-microguides-column .microguide-title{
+  cursor: pointer;
+  color: #222;
+}
+
+.related-microguides .related-microguides-column .microguide-title:hover{
+  color: #7D7D7D;
+}
+
+.related-microguides .related-microguides-column .byc-modal-icon{
+  width: 50%;
+}
+
+.related-microguides .see-all-microguides {
+  display: inline;
+  position: relative;
+  top: -1.25em;
+}
+
+/* Three column */
+@media screen and (min-width : 672px) {
+
+  .related-microguides .related-microguides-column{
+    width: 45.94599124263935%;
+    margin-left: 8.108017515%;
+  }
+
+  .related-microguides-column-2,
+  .related-microguides-column-3 {
+    display: none;
+  }
+
+}
+
+/* Mobile */
+
+@media screen and (max-width : 671px) {
+
+  .related-microguides .related-microguides-column {
+    width: 87.6%;
+    margin-left: 8.2%;
+  }
+
+  .related-microguides .related-microguides-column.related-microguides-column-0{
+    width: 87.6%;
+    margin-left: 8.2%;
+  }
+
+  .related-microguides-column-1,
+  .related-microguides-column-2,
+  .related-microguides-column-3 {
+    display: none;
+  }
+
+  .related-microguides .related-microguides-header {
+    text-align: center;
+  }
+
+  .related-microguides .related-microguides-column .microguide-info .microguide-title {
+    font-size: 1rem;
+  }
+
+  .related-microguides .related-microguides-column .microguide-info .author {
+    font-size: .8rem;
+  }
+
+}
+
+/* IE8 */
+@media \0screen {  
+
+  .related-microguides .related-microguides-column .large-box .slide-show-icon {
+    background-image: url('/img/sprite/home-top-elements1x.png?r=1');
+  }
+
+}  

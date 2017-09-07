@@ -1,0 +1,65 @@
+.static {
+  text-align: left;
+  max-width: 800px;
+  margin: auto;
+  font-size: 1rem;
+  line-height: 1.375rem;
+}
+
+.static li {
+  margin: 0 0 0 30px;
+}
+
+.static h1,
+.static h2,
+.static h3 {
+  text-transform: uppercase;
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  font-weight: normal;
+
+}
+
+.static h1 {
+  margin-bottom: .75rem;
+}
+
+.static h1:not(:first-child) {
+  margin-top: 3rem;
+}
+
+.static h3 {
+  margin: 2rem 0 .5rem 0;
+}
+
+.static .how-it-works .collage-container {
+  text-align: center;
+}
+
+.static .how-it-works .section-body {
+  margin-bottom: 2rem;
+}
+
+.static .how-it-works .section-body p:first-child {
+  margin-top: 0;
+}
+
+.static .how-it-works a,
+.static .about a {
+  color: #E44D37;
+  text-decoration: none;
+}
+
+.static .how-it-works a:hover,
+.static .about a:hover {
+  color: #E44D37;
+  text-decoration: underline;
+}
+
+.static .how-it-works a.button {
+  color: white;
+}
+
+.static .how-it-works a.button:hover {
+  text-decoration: none;
+}
+

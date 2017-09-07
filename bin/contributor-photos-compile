@@ -1,0 +1,28 @@
+#!/bin/bash
+
+abspath="$(cd "${0%/*}" 2>/dev/null; echo "$PWD"/"${0##*/}")"
+rootdir=$(dirname $(dirname $abspath))
+outfile="$rootdir/cfg/contributor-photos.php"
+
+contributors=$(cd $rootdir; find img/contributors -name "*.png" | awk '{print "/" $1}' | tr '\n' '|')
+contributor_links=""
+for photo in $(echo $contributors |tr '|' '\n'); do
+  base=$(basename $photo)
+  noext="${base%.*}"
+  contributor_links="$contributor_links|/story/bio/$noext" 
+done
+
+(
+cat <<EOD
+<?php 
+  define('CONTRIBUTOR_PHOTOS', '${contributors%?}');
+  define('CONTRIBUTOR_LINKS', '${contributor_links#|}');
+EOD
+) > $outfile
+
+if [ $? -eq 0 ]; then
+  echo "Wrote ${contributors%?} to $outfile"
+else
+  echo "Oops!  Something went wrong, check for error ouput."
+fi
+echo ""

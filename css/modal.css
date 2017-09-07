@@ -1,0 +1,316 @@
+.modal {
+
+  position: fixed;
+  top: 50px;
+  left: 100px;
+  width: 620px;
+
+  border: 6px solid #666;
+  border-radius: 6px;
+  background-color: #f2f2f2;
+
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+
+  z-index: 15;
+
+}
+
+.modal-close {
+  background-image: url("/img/sprite/search.png");
+  background-position: -2px -60px;
+  width: 21px;
+  height: 21px;
+
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 20;
+  font-size: 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.modal-inner {
+  padding: 0;
+  border-radius: 6px;
+}
+
+.modal-inner-0,
+.modal-inner-1,
+.modal-inner-2,
+.modal-inner-3 {
+  display: none;
+}
+
+.modal-inner-1 .header-image-container,
+.modal-inner-1 .header-image-container .header-image {
+  width: 100%;
+}
+
+.modal-inner-1-body {
+  margin-top: -5rem;
+}
+
+.modal-inner-1 .header-text {
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
+}
+
+.modal-inner-1 .fb-button-container {
+  text-align: center;
+}
+
+.modal-inner-1 .instruction {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.modal .button {
+  float: none;
+  margin-right: 0;
+}
+
+.modal .small-help {
+  font-size: .875rem;
+}
+
+.modal-inner-1 hr {
+  padding: 0;
+  margin: 0;
+}
+
+.fb-button-sign-in {
+  display: inline-block;
+  width: 310px;
+  height: 52px;
+  background-image: url('/img/sprite/fb-buttons.png?r=1');
+  background-size: 330px 282px;
+  background-position: -10px -10px;
+}
+
+.fb-button-sign-in:hover {
+    background-position: -10px -80px;
+}
+
+.fb-button-connect {
+  display: inline-block;
+  width: 310px;
+  height: 55px;
+  background-image: url('/img/sprite/fb-buttons.png?r=1');
+  background-size: 330px 282px;
+  background-position: -10px -150px;
+}
+
+.fb-button-connect:hover {
+  background-position: -10px -220px;
+}
+
+.modal-inner .switch-modal {
+  text-align: right;
+  margin-right: 2rem;
+  margin-top: .5rem;
+}
+
+.modal-inner-2-body {
+  padding: 1rem 1rem 0 1rem;
+}
+
+.modal-inner-3-body {
+  padding: 0 1rem;
+}
+
+.modal-inner-2 .forgot-password {
+  float: right;
+}
+
+.modal-inner-2 .button-sign-in {
+  text-align: right;
+  margin-top: .5rem;
+  display: table-cell;
+}
+
+.modal-inner-2 .fb-button-container {
+  margin-left: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.modal-inner .instruction-prompt {
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+
+.modal-inner-3 .join-connect {
+  margin: 1rem 0 0 1rem;
+}
+
+.modal-inner-3 .fb-button-container {
+  margin-top: .5rem;
+}
+
+.modal-inner-3 .button-join {
+  text-align: right;
+  display: table-cell;
+}
+
+.simple-text-button {
+  background-color: #d1d1d1;
+  border-radius: 3px;
+  padding: 0 .5rem;
+}
+
+.modal .input-text {
+  display: block;
+  margin: .625rem 0px;
+  padding: .3125rem .625rem;
+  font-size: 1.1875rem;
+  width: 95%;
+}
+
+.modal .modal-form {
+  margin: 1rem 1.25rem 0 1.25rem;
+}
+
+.modal .modal-form .baseline-controls {
+  display: table;
+  width: 100%;
+  margin-top: .5rem;
+}
+
+.modal .modal-inner-3 .modal-form {
+  margin-bottom: 1rem;
+}
+
+.modal .modal-form .error-messages {
+  background-color: #E44D37;
+  border-radius: 5px;
+  width: 60%;
+  color: white;
+  padding: .5rem;
+  display: table-cell;
+  vertical-align: top;
+  visibility: hidden;
+}
+
+.modal label {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.modal hr {
+  height: 0;
+  border: 0;
+  color: #d7d7d7;
+  background-color: #d7d7d7;
+  border-top: 1px solid #d7d7d7;
+}
+
+.modal .error-messages a {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Mobile */
+
+@media screen and (max-width : 671px) {
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .modal-close {
+    margin: 0;
+  }
+
+  .modal label {
+    margin: 10px 0; 
+  }
+
+  .modal .input-text {
+    margin: 5px 0;
+    padding: 5px 5px;
+  }
+
+  .modal .modal-form {
+    margin: 1rem .5rem 0 .5rem;
+  }
+
+  .modal-inner .instruction-prompt {
+    font-size: 1rem;
+  }
+
+  .modal-inner-1-body {
+    margin-top: -3rem;
+  }
+
+  .modal-inner-1 .header-text {
+    font-size: 1rem;
+    margin-bottom: .5rem;
+  }
+
+  .modal-inner-2-body {
+    padding: .5rem .5rem 0 .5rem;
+  }
+
+  .modal-inner-2 .fb-button-container {
+    text-align: center;
+    margin: 0 auto .5rem auto;
+  }
+
+  .fb-button-connect {
+    width: 248px;
+    height: 44px;
+    background-size: 264px 225.6px;
+    background-position: -8px -118px;
+  }
+
+  .fb-button-connect:hover {
+    background-position: -8px -176px;
+  }
+
+  .fb-button-sign-in {
+    width: 248px;
+    height: 42px;
+    background-size: 264px 225.6px;
+    background-position: -8px -8px;
+  }
+
+  .fb-button-sign-in:hover {
+    background-position: -8px -64px;
+  }
+
+  .modal-inner-3 .join-connect {
+    margin: 1rem 0 0 0;
+  }
+
+  .modal-inner-3 .join-connect .instruction-prompt {
+    display: none;
+  }
+
+  .modal-inner-3 .fb-button-container {
+    text-align: center;
+    margin: .5rem auto 0 auto;
+  }
+
+}
+
+/* IE8 */
+@media \0screen {  
+
+  .fb-button-sign-in,
+  .fb-button-connect {
+    background-image: url('/img/sprite/fb-buttons1x.png?r=1');
+  }
+
+}

@@ -1,0 +1,281 @@
+
+.fb-container {
+  display: inline-block;
+  margin: auto;
+  margin-bottom: 4rem;
+  text-align: left;
+  font-size: 1.5rem; 
+  font-family: ff-dagny-web-pro, sans-serif;
+  background-color: white;
+  border: 1px solid #e7e6e6;
+  border-radius: 8px;
+  padding: 1.5rem 2rem;
+  max-width: 45rem;
+}
+
+.fb-container .salutation {
+  margin: 0 0 .5rem 0;
+  font-family: "alternate-gothic-no-3-d", sans-serif;
+  font-size: 1.75rem;
+}
+
+.fb-container .fb-link-prompt,
+.fb-container .fb-link-about {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.fb-container .form-wrapper {
+  margin-top: 1.5rem;
+}
+
+.fb-container .top-line-wrapper {
+  display: table;
+  width: 100%;
+}
+
+.fb-container .fb-profile-image-wrapper {
+  display: table-cell;
+  width: 20%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.fb-container .fb-profile-image-wrapper .fb-logo {
+  width:25px;
+  height:25px;
+  vertical-align: top;
+}
+
+.fb-container .fb-profile-image-wrapper .fb-profile-image {
+  vertical-align: top;
+}
+
+.fb-container .fb-link-arrows {
+  display: table-cell;
+  width: 10%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.fb-container .fb-link-arrows .fb-link-arrows-img {
+  background-image: url('/img/sprite/signinbuttons.png?r=1');
+  background-size: 349px 224px;
+  background-position: -10px -145px;
+  width: 45px;
+  height: 30px;
+  display: inline-block;
+}
+
+.fb-container .fb-input-wrapper {
+  display: table-cell;
+  float: none;
+  border: 0;
+  vertical-align: middle;
+  text-align: right;
+  width: 55%;
+  padding: 1rem;
+}
+
+.fb-container .fb-profile-image-wrapper .fb-icon {
+  background-image: url('/img/sprite/signinbuttons.png?r=1');
+  background-size: 349px 224px;
+  background-position: -65px -145px;
+  position: absolute;
+  bottom: -12px;
+  left: -12px;
+  height: 32px;
+  width: 32px;
+}
+
+.fb-container .fb-input-wrapper,
+.fb-container .fb-profile-image-wrapper {
+  border: 4px solid #e3e2e2;
+  border-radius: 3px;
+  position: relative;
+}
+
+.fb-container .fb-input-wrapper input[type=text],
+.fb-container .fb-input-wrapper input[type=password] {
+  width: 95%;
+  padding: .5rem;
+}
+
+
+.fb-container .fb-input-wrapper .forgot-link {
+  text-align: right;
+  font-size: .75rem;
+  border: 0;
+}
+
+.fb-container .fb-input-wrapper .byc-icon {
+  background-image: url('/img/sprite/signinbuttons.png?r=1');
+  background-size: 349px 224px;
+  background-position: -64px -180px;
+  position: absolute;
+  bottom: -12px;
+  left: -12px;
+  width: 39px;
+  height: 37px;
+}
+
+.fb-container .button-wrapper {
+  text-align: right;
+  margin-top: .5rem;
+}
+
+.fb_submit_link_accounts.inactive {
+  background-image: none;
+  background-color: #dedede;
+  border: 1px solid #ababab;
+  color: #ababab;
+  cursor: auto;
+}
+
+.fb-register, .forgot {
+  border: 1px solid #777;
+  margin: auto;
+}
+
+.fb-register {
+  float: none;
+  border: 0;
+}
+
+.forgot {
+  display: inline-block;
+  margin: auto;
+  margin-bottom: 4rem;
+  text-align: left;
+  font-size: 1.5rem; 
+  font-family: ff-dagny-web-pro, sans-serif;
+  background-color: white;
+  border: 1px solid #e7e6e6;
+  border-radius: 8px;
+  padding: 1.5rem 2rem;
+  max-width: 45rem;
+}
+
+.forgot label {
+  margin: .5rem 0;
+}
+
+.forgot .instruction {
+  font-size: 1.1rem;
+  margin-top: .8rem;
+  margin-bottom: .8rem;
+}
+
+.fb-container .input-text {
+  display: block;
+  background: none repeat scroll 0 0 transparent;
+  border-top: 1px solid #bebebe !important;
+  border-bottom: 1px solid #bebebe !important;
+  -moz-box-shadow: inset 0 3px 2px #cfcfcf;
+  -webkit-box-shadow: inset 0 3px 2px #cfcfcf;
+  box-shadow: inset 0 3px 2px #cfcfcf;
+  border-radius: 5px;
+
+  margin: 5px 0;
+  padding: 5px 0;
+  font-size: 18px;
+}
+
+.forgot .input-text {
+  width: 20rem;
+  margin: auto;
+}
+
+.forgot .forgot_button {
+  margin-top: 1rem;
+}
+
+.forgot .forgot_button:hover {
+}
+
+.label {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.button-wrapper .button {
+  margin: 10px;
+  float: none;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.button-wrapper .button:last-child {
+  margin-right: 0;
+}
+
+/* Mobile */
+
+@media screen and (max-width : 671px) {
+
+  .forgot {
+    width: 100%;
+    padding: 0 .5rem 1rem .5rem;
+    text-align: left;
+  }
+
+  .forgot_button {
+    float: none;
+  }
+
+  .header-logo img {
+    width: 20%;
+  }
+
+  .forgot .input-text {
+    width: 80%;
+  }
+
+  .forgot .button-container {
+    text-align: right;
+    padding-right: 1rem;
+  }
+
+  .fb-container {
+    padding: .5rem;
+  }
+
+  .fb-container .salutation {
+    font-size: 1.25rem;
+  }
+
+  .fb-container .fb-link-prompt,
+  .fb-container .fb-link-about {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
+  .fb-container .button-wrapper {
+    text-align: center;
+  }
+
+  .fb-container .button-wrapper .button,
+  .fb-container .button-wrapper .button:last-child
+  {
+    margin: .5rem 0;
+  }
+
+  .header-bare .header {
+    display: none;
+  }
+
+}
+
+/* IE8 */
+@media \0screen {  
+
+  .fb-container .fb-link-arrows .fb-link-arrows-img,
+  .fb-container .fb-profile-image-wrapper .fb-icon,
+  .fb-container .fb-input-wrapper .byc-icon,
+  .fb_submit_link_accounts,
+  .fb_submit_link_skip,
+  .fb_submit_link_skip,
+  .forgot .forgot_button {
+    background-image: url('/img/sprite/signinbuttons1x.png?r=1');
+  }
+}  

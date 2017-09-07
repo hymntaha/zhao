@@ -1,0 +1,6 @@
+<!doctype html>
+<html>
+  <script type="text/javascript">
+    window.close(); 
+  </script>
+</html>

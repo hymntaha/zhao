@@ -1,0 +1,94 @@
+
+.settings-container {
+  min-width: 80%;
+}
+
+.submissions hr {
+
+  height: 0px;
+  border: 0;
+  color: #cccccc;
+  background-color: #cccccc;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #fff;
+}
+
+.submissions .pending-stories .bravo,
+.submissions .draft-stories .bravo,
+.submissions .rejected-stories .bravo,
+.my-stories .accepted-stories .bravo
+ {
+  display: none;
+}
+
+.submissions .stories .delete,
+.my-stories .delete {
+  display: block;
+  z-index: 1;
+}
+
+.submissions .pending-stories-container,
+.submissions .draft-stories-container,
+.submissions .rejected-stories-container,
+.submissions .accepted-stories-container,
+.submissions .no-draft-stories,
+.my-stories .no-accepted-stories,
+.submissions .pending-microguides-container,
+.submissions .draft-microguides-container,
+.submissions .rejected-microguides-container,
+.submissions .accepted-microguides-container {
+  display: none;
+  margin-bottom: 20px;
+}
+
+.submissions-stats a.navlink-submit-a-story:link,
+.submissions-stats a.navlink-submit-a-story:visited {
+  color: white;
+  margin-left: 1em;
+}
+
+.submissions .see-all {
+  text-align: right;
+  cursor: pointer;
+}
+
+.submissions-header {
+  background-color: white;
+  display: none;
+  margin-top: -15px;
+  padding-top: 17px;
+  height: 43px;
+  box-shadow: 0px 3px 3px 0px #ccc; 
+}
+
+.submissions-stats a:link,
+.submissions-stats a:visited {
+    border-right: 1px dotted #5a5758;
+    padding: 2px 10px 2px 10px;
+}
+
+.submissions-stats a:link.last,
+.submissions-stats a:visited.last {
+    border-right: none;
+}
+
+.submissions-stats .header {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.submissions h1 {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.submissions a {
+  color: #E44D37;
+  text-decoration: none;
+}
+
+.submissions a:hover {
+  color: #E44D37;
+  text-decoration: underline;
+}

@@ -1,0 +1,206 @@
+
+.tooltip {
+  display: none; 
+  position: absolute;
+}
+
+
+.tooltip-fs .tooltip-body {
+  color: #666;
+  padding: 5px 10px;
+  margin: 0px 8px; 
+  background-color: #fff;
+  border: 1px solid #a2c648;
+  font-family: "ff-dagny-web-pro",sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  font-style: normal;
+  
+}
+
+.tooltip-fs .tooltip-pointer-br {
+  display: none; 
+  float: right;
+  background: url("/img/sprite/tooltip.png") -51px 0;
+  width: 7px;
+  height: 4px;
+  margin: 0 12px 0 0;
+}
+
+.tooltip-fs .tooltip-pointer-bl {
+  display: none; 
+  float: left;
+  background: url("/img/sprite/tooltip.png") -51px 0;
+  width: 7px;
+  height: 4px;
+  margin: 0 0 0 12px;
+}
+
+.tooltip-fs .tooltip-pointer-r {
+  display: none; 
+  float: right;
+  background: url("/img/sprite/tooltip.png") -18px 0;
+  width: 4px;
+  height: 7px;
+  margin: 0 4px 0 0;
+}
+
+.tooltip-fs .tooltip-pointer-l {
+  display: none; 
+  float: left;
+  background: url("/img/sprite/tooltip.png") -14px 0;
+  width: 4px;
+  height: 7px;
+  margin: 0 0 0 4px;
+}
+
+.tooltip-comment .tooltip-body {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  margin: 0px 8px; 
+  background-color: #333;
+  font-family: "ff-dagny-web-pro",sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  font-style: normal;
+}
+
+.tooltip-comment .tooltip-pointer-br {
+  display: none; 
+  float: right;
+  background: url("/img/sprite/tooltip.png") -7px 0;
+  width: 7px;
+  height: 4px;
+  margin: 0 12px 0 0;
+}
+
+.tooltip-comment .tooltip-pointer-bl {
+  display: none; 
+  float: left;
+  background: url("/img/sprite/tooltip.png") -7px 0;
+  width: 7px;
+  height: 4px;
+  margin: 0 0 0 12px;
+}
+
+.tooltip-comment .tooltip-pointer-r {
+  display: none; 
+  float: right;
+  background: url("/img/sprite/tooltip.png") -18px 0;
+  width: 4px;
+  height: 7px;
+  margin: 0 4px 0 0;
+}
+
+.tooltip-comment .tooltip-pointer-l {
+  display: none; 
+  float: left;
+  background: url("/img/sprite/tooltip.png") -14px 0;
+  width: 4px;
+  height: 7px;
+  margin: 0 0 0 4px;
+}
+
+.tooltip-comment .tooltip-pointer-tr {
+  display: none; 
+  float: right;
+  background: url("/img/sprite/tooltip.png") 0 0;
+  width: 7px;
+  height: 4px;
+  margin: -4px 12px 0 0;
+}
+
+.tooltip-comment .tooltip-pointer-tl {
+  display: none; 
+  float: left;
+  background: url("/img/sprite/tooltip.png") 0 0;
+  width: 7px;
+  height: 4px;
+  margin: -4px 0 0 12px;
+}
+
+
+
+.tooltip-error .tooltip-body {
+  color: #ff0000;
+  padding: 5px 10px;
+  margin: 0px 8px; 
+  border: 1px solid #ff0000;
+  background-color: #ffd8d8;
+  font-family: "ff-dagny-web-pro",sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  font-style: normal;
+}
+
+.tooltip-error .tooltip-pointer-br {
+  display: none; 
+  float: right;
+  background: url("/img/sprite/tooltip.png") -29px 0;
+  width: 7px;
+  height: 4px;
+  margin: 0 12px 0 0;
+}
+
+.tooltip-error .tooltip-pointer-tr {
+  display: none; 
+  float: right;
+  background: url("/img/sprite/tooltip.png") -22px 0;
+  width: 7px;
+  height: 4px;
+  margin: -4px 12px 0 0;
+}
+
+.tooltip-error .tooltip-pointer-bl {
+  display: none; 
+  float: left;
+  background: url("/img/sprite/tooltip.png") -29px 0;
+  width: 7px;
+  height: 4px;
+  margin: 0 0 0 12px;
+}
+.tooltip-error .tooltip-pointer-tl {
+  display: none; 
+  float: left;
+  background: url("/img/sprite/tooltip.png") -22px 0;
+  width: 7px;
+  height: 4px;
+  margin: -4px 0 0 12px;
+}
+
+.tooltip-error .tooltip-pointer-r {
+  display: none; 
+  float: right;
+  background: url("/img/sprite/tooltip.png") -40px 0;
+  width: 4px;
+  height: 7px;
+  margin: 0 4px 0 0;
+}
+
+.tooltip-error .tooltip-pointer-l {
+  display: none; 
+  float: left;
+  background: url("/img/sprite/tooltip.png") -36px 0;
+  width: 4px;
+  height: 7px;
+  margin: 0 0 0 4px;
+  z-index:2;
+}
+
+.tooltip li {
+  list-style-type: none;
+}
+.tooltip{
+  z-index:20;
+}
+
+/* Mobile */
+
+@media screen and (max-width : 671px) {
+
+  .tooltip-fs .tooltip-body,
+  .tooltip-comment .tooltip-body {
+    font-size: .5rem;
+  }
+}

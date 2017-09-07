@@ -1,0 +1,88 @@
+
+.spinner-back {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  background: #000;
+  
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  rotate: 0deg;
+
+  margin: auto;
+}
+
+.spinner {
+  width: 25px;
+  height: 25px;
+  border-right: 8px solid #4D4D4D;
+  border-bottom: 8px solid #4D4D4D;
+  
+  margin: auto;
+  
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  -webkit-animation: loading-spinner 1s infinite linear;
+  -moz-animation: loading-spinner 1s infinite linear;
+  animation: loading-spinner 1s infinite linear;
+}
+
+.spinner.yellow {
+  border-left: 8px solid #CCC366;
+  border-top: 8px solid #CCC366;
+}
+
+.spinner.orange {
+  border-left: 8px solid #CC8F66;
+  border-top: 8px solid #CC8F66;
+}
+
+.spinner.red {
+  border-left: 8px solid #de7267;
+  border-top: 8px solid #de7267;
+  z-index:2;
+}
+
+.spinner.pink {
+  border-left: 8px solid #CC66C3;
+  border-top: 8px solid #CC66C3;  
+}
+
+.spinner.violet {
+  border-left: 8px solid #A366CC;
+  border-top: 8px solid #A366CC;  
+}
+
+.spinner.blue {
+  border-left: 8px solid #6670CC;
+  border-top: 8px solid #6670CC;  
+}
+
+.spinner.green {
+  border-left: 8px solid #66CC74;
+  border-top: 8px solid #66CC74;  
+}
+
+@-webkit-keyframes loading-spinner {
+  0%   { -webkit-transform:rotate(0deg); }
+  100% { -webkit-transform:rotate(360deg); }
+}
+
+@-moz-keyframes loading-spinner {
+  0%   { -moz-transform:rotate(0deg); }
+  100% { -moz-transform:rotate(360deg); }
+}
+
+
+@keyframes loading-spinner {
+  0%   { transform:rotate(0deg); }
+  100% { transform:rotate(360deg); }
+}
+

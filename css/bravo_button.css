@@ -1,0 +1,115 @@
+
+.bravoSmall.bravoOff { background: url('/img/sprite/bravo.png') -3px -42px; }
+.bravoSmall.bravoOn { background: url('/img/sprite/bravo.png') -3px  -63px; }
+
+.bravoLarge.bravoOff {
+  background-image: url('/img/sprite/arrows-bravo.png?r=1');
+  background-repeat: no-repeat;
+  background-size: 188px 255px;
+  background-position: -110px -30px;
+}
+
+.bravoLarge.bravoOn {
+  background-image: url('/img/sprite/arrows-bravo.png?r=1');
+  background-repeat: no-repeat;
+  background-size: 188px 255px;
+  background-position: -110px -95px;
+}
+
+.bravoLarge:hover {
+  background-image: url('/img/sprite/arrows-bravo.png?r=1');
+  background-repeat: no-repeat;
+  background-size: 188px 255px;
+  background-position: -110px -60px;
+}
+
+.bravoSmall {
+  cursor: pointer;
+  width: 9px;
+  height: 19px;
+  float: left;
+}
+
+.bravoLarge {
+  cursor: pointer;
+  height: 26px;
+  width: 72px;
+  float: left;
+}
+
+.bravo-count-middle {
+  border-style: solid;
+  border-color: #7D7D7D;
+  border-radius: 0.3em 0.3em 0.3em 0.3em;
+  line-height: 1.4em;
+  border-width: 1px;
+  margin-left: 4px;
+}
+
+.bravo-count-middle span {
+  padding: 0 0.2em;
+  color: #000000;
+  /* border-bottom: 1px solid #c1c1c1; /*stupid hack to make it look a little better on chrome */
+}
+
+.bravo-count-left {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: transparent #AAAAAA transparent -moz-use-text-color;
+  border-image: none;
+  border-style: solid solid solid none;
+  border-width: 4px 4px 4px 0;
+  float: left;
+  left: 1px;
+  top: 30%;
+  position: absolute;
+  border: 4px transparent solid;
+}
+
+.bravo-count-left.grey-triangle {
+  border-right-color: #7D7D7D;
+  left: -3px;
+}
+
+.bravo-count-left.white-foreground-triangle{
+  border-right-color: #FFFFFF;
+  left: -2px;
+}
+
+.bravo-count-left.grey-foreground-triangle{
+  border-right-color: #F1F1F1;
+  left: -2px;
+}
+
+.bravo-count-bubble.hidden {
+  display: none;
+}
+
+.bravo-count-bubble.visible {
+  float: left;
+  position: relative;
+}
+
+.story .bravo-count-bubble.visible {
+  margin-top: 2px;
+}
+
+.modal-bravo .bravo-count-bubble.visible {
+  margin-top: 2px;
+}
+
+.modal-bravo .bravo-count-middle {
+  background-color: #F1F1F1;
+}
+
+/* IE8 */
+@media \0screen {  
+  .bravoLarge.bravoOff,
+  .bravoLarge.bravoOn,
+  .bravoLarge:hover {
+    background-image: url('/img/sprite/arrows-bravo1x.png?r=1');
+  }
+
+}

@@ -1,0 +1,1256 @@
+.outer-container.microguide-house-ad-container {
+  margin-top: 0;
+}
+
+.search-results-header h5.search-results-text {
+  font-size: 1.8rem;
+  font-family: abril-display, serif;
+  font-style: italic;
+  font-weight: normal;
+  margin: 0 0 0 1.5rem;
+  text-transform: uppercase;
+}
+
+.stories-microguides-separator {
+  border-top: 4px solid #000;
+  position: relative;
+  z-index: -1;
+  top: -16px;
+  margin-bottom: 10px;
+}
+
+.search-results-header .border-light {
+  margin-bottom: 15px;
+}
+
+.microguide-landing .title-container {
+  position: relative;
+}
+
+.microguide-landing .microguide-description {
+  margin-top: .25rem;
+  margin-bottom: .5rem;
+  font-size: .875rem;
+}
+
+.microguide-landing .microguide-tags {
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  line-height: 2rem;
+}
+
+.microguide-landing .microguide-tags .read-more {
+  text-transform: uppercase;
+  font-family: alternate-gothic-no-3-d, sans-serif;
+}
+
+.microguide-landing .microguide-tags .tag {
+  border-radius: 5px;
+  background-color: #ababab;
+  color: black;
+  padding: 4px;
+}
+
+.microguide-landing .open-microguide {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+}
+
+.microguide-landing .open-guide-mark {
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+  text-align: right;
+}
+
+.microguide-landing .open-guide-o {
+  display: inline-block;
+  border: 2px solid #4ec823;
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  vertical-align: middle;
+}
+
+.microguide-landing .open-guide-text {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 2px;
+  color: #7d7979;
+}
+
+.microguide-landing .help-note {
+  background-image: url('/img/opacity/black_75.png');
+  color: #fff;
+  border: none !important;
+  padding: .6em .5em;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 1rem;
+  position: relative;
+}
+
+.microguide-landing .help-note .carrot {
+  width: 25px;
+  height: 20px;
+  background-image: url('/img/carrot.png');
+  background-repeat: no-repeat;
+  background-size: 25px 20px;
+  position: absolute;
+  right: 17px;
+  top: -12px;
+}
+
+.microguide-landing .help-note-alt {
+  position: absolute;
+  bottom: 1.25rem;
+  right: 1.25rem;
+  border: 1px solid #b6b9b9;
+  border-radius: 5px;
+  background-color: white;
+  padding: .75em .5em;
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.18); 
+}
+
+.outer-container .container {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+/* For microguide launch page */
+
+.header hr.header-border-bottom {
+  border: 0;
+}
+
+.header {
+  margin-bottom: 0px;
+}
+
+.microguide-landing {
+  width: 100%;
+  margin-top: -24px;
+}
+
+.microguide-landing .byc-icon {
+  background-image: url('/img/byc-microguide-icon.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:38px;
+  width:141px;
+  padding-right: 10px;
+  background-color: black;
+}
+
+.microguide-landing hr {
+  background-color: black;
+  border: 0 none;
+  color: black;
+  height: 4px;
+  width: 100%;
+}
+
+.microguide-landing .separator {
+  width:40px;
+  margin-left:0;
+  float:left;
+}
+
+.microguide-landing .title-container {
+    width: 100%;
+}
+
+.microguide-landing .front-title {
+  font-size: 32px;
+  line-height: 34px;
+  font-family: "abril-display";
+  margin-top: 10px;
+  width: 40%;
+}
+
+.microguide-landing .available-on {
+  margin-top: 10px;
+}
+
+.microguide-landing .available-on .available-on-text {
+  color: #000;
+  text-transform: uppercase;
+  font-family: "alternate-gothic-no-3-d", sans-serif;
+  font-size: 1.25rem;
+  margin-left: 0px;
+  vertical-align: middle;
+  position: relative;
+  top: 2px;
+}
+
+.microguide-landing .available-on .separator {
+  float: none;
+}
+
+.microguide-landing .available-on icon {
+  vertical-align: middle;
+}
+
+.microguide-landing  .byline {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.microguide-landing .first-story {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  float: left;
+}
+
+
+.microguide-landing .story-box {
+  float: left;
+  width: 100%;
+}
+
+.microguide-landing img {
+  width: 100%;
+  display:block;
+
+}
+
+.microguide-landing .story-box:hover {
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.microguide-landing .microguide-container {
+  /*width: 93.937125748502994011976047904192%; /* 1255 / 1336 */
+  margin: 0 auto;
+}
+
+.microguide-landing .microguide-columns {
+  padding-top: 15px;
+  background-color: #dbdbdb;
+}
+
+.microguide-landing .microguide-column {
+  float: none;
+}
+
+.microguide-landing .story-box {
+  margin-bottom: 1em;
+  position: relative;
+  cursor: pointer;
+}
+
+.microguide-landing .microguide-story.draft .story-box:not(.microguide-create),
+.microguide-landing .microguide-story.draft .story-box:not(.microguide-create) .button {
+  cursor: auto;
+}
+
+
+
+.microguide-landing .microguide-story {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.microguide-landing .microguide-story.empty-spacer {
+  visibility: hidden;
+}
+
+.microguide-landing .story-title {
+  text-align: center;
+  margin: 0 auto;
+  width: 95%;
+}
+
+.microguide-landing .first-story .story-box-overlay,
+.microguide-landing .microguide-story .story-box-overlay {
+  width: 100%;
+  position: absolute;
+  height: 60%;
+  background: -webkit-linear-gradient(top, rgba(000,000,0,0.8), rgba(000,000,000, 0));
+  background: -moz-linear-gradient(top, rgba(000,000,0,0.8), rgba(000,000,000, 0));
+  
+    /* approximately a 33% opacity on blue */
+  filter: progid:DXImageTransform.Microsoft.gradient(
+    startColorstr=#AA000000, endColorstr=#00000000
+  );
+  
+  /* IE8 uses -ms-filter for whatever reason... */
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(
+    startColorstr=#AA000000, endColorstr=#00000000
+  );
+  
+}
+
+.microguide-create .microguide-landing .microguide-story {
+  cursor: move;
+}
+
+.microguide-create .microguide-landing .microguide-story .story-heading,
+.microguide-create .microguide-landing .microguide-story .preview-info .button {
+  cursor: pointer;
+}
+
+.microguide-landing .microguide-story .preview-info {
+  display: none;
+  text-align: center;
+  margin-top: .75rem;
+}
+
+.microguide-landing .microguide-story .preview-info .exclamation {
+  display: inline-block;
+  width: 18px;
+  height: 44px;
+  background-image: url('/img/sprite/exclamation-sprite.png?r=2');
+  background-size: 65px 50px;
+  background-repeat: no-repeat;
+  background-position: -5px -5px;
+  margin-bottom: .25rem;
+}
+
+.microguide-landing .microguide-story.invited .preview-info:hover .exclamation {
+  background-position: -25px -5px;
+}
+
+.microguide-landing .microguide-story.pending .preview-info .exclamation,
+.microguide-landing .microguide-story.draft .preview-info .exclamation {
+  background-position: -45px -5px;
+  visibility: hidden;
+}
+
+/* button styles copied from global */
+.microguide-landing .microguide-story.invited .preview-info:hover .button {
+  text-decoration: none;
+  background: #000;
+  background: -webkit-gradient(linear, left top, left bottom, from(#444), to(#000));
+  background: -moz-linear-gradient(top,  #444,  #000);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#444444', endColorstr='#000000');
+}
+
+.microguide-landing .microguide-story .preview-info .button {
+  font-size: .9375rem;
+  padding: .15em 2em;
+}
+
+.microguide-create .microguide-landing .microguide-story.draft .preview-info .button {
+  background: none;
+  filter: none;
+  background-color: #de7267;
+  border-color: #de7267;
+}
+
+.microguide-landing .microguide-story.draft .preview-info .button,
+.microguide-landing .microguide-story.pending .preview-info .button {
+  background: none;
+  filter: none;
+  background-color: #d6d5d5;
+  border-color: #cdcdcd;
+}
+
+.microguide-landing .first-story.draft img.front-photo,
+.microguide-landing .first-story.pending img.front-photo {
+  visibility: hidden;
+}
+
+.microguide-landing .microguide-story.preview .story-box:hover {
+  opacity: 1;
+}
+
+.microguide-landing .microguide-story.preview .story-box-overlay {
+  height: auto;
+  background: none;
+  filter:  none;
+}
+
+.microguide-landing .microguide-story.invited .story-box-overlay .story-heading {
+  background-color: black;
+}
+
+.microguide-landing .microguide-story.pending .story-box-overlay .story-heading,
+.microguide-landing .microguide-story.draft .story-box-overlay .story-heading {
+  background-color: #d6d5d5;
+}
+
+.microguide-create .microguide-landing .microguide-story.draft .story-box-overlay .story-heading {
+  background-color: #de7267;
+}
+
+.microguide-landing .microguide-story.preview .preview-info {
+  display: block;
+  position: absolute;
+  width: 100%;
+  bottom: .5rem;
+}
+
+/* NB: borders must be done manually so that they don't add to the box dimensions */
+.microguide-landing .microguide-story.preview .border-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3%;
+  background-color: white;
+}
+
+.microguide-landing .microguide-story.preview .border-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 2%;
+  background-color: white;
+}
+
+.microguide-landing .microguide-story.preview .border-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3%;
+  background-color: white;
+}
+
+.microguide-landing .microguide-story.preview .border-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 2%;
+  background-color: white;
+}
+
+.microguide-landing .story-heading {
+  font-family: "abril-display";
+  color: #FFF;
+  width: 100%;
+  z-index: 5;
+  padding-top: 7%;
+  padding-bottom: 3%;
+}
+
+.microguide-landing .first-story .story-heading {
+  font-size: 18px;
+}
+
+.microguide-landing .first-story:hover {
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.microguide-landing .story-num {
+  text-align: center;
+}
+
+.microguide-landing .story-num hr{
+  background-color: #FFF;
+  height: 1px;
+  width: 20%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.microguide-landing .slide-show-icon {
+  background-image: url("/img/sprite/home-top-elements.png?r=1");
+  background-repeat: no-repeat;
+  background-size: 430px 200px;
+  background-position: -230px -5px;
+  margin: -46px 0 0 -46px;
+  width: 92px;
+  height: 92px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}
+
+.microguide-landing .first-story:hover .slide-show-icon {
+  background-position: -330px -5px;
+}
+
+.microguide-landing .slide-show-link {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  
+}
+
+.microguide-landing .hidden {
+  display: none;
+}
+
+
+/* Two-column */
+@media screen and (min-width : 492px) {
+
+  .microguide-column,
+  .microguide-story  {
+    width: 43.9993442622951%;
+    margin-left: 3.9999403874814%;
+  }
+  
+  .microguide-landing .first-story {
+    margin-left: 3.9999403874814%;
+    width: 91.9986289120716%; 
+  }
+
+  .responsive-margin-left {
+    margin-left: 3.9999403874814%;
+  }
+
+}
+
+
+/* Three column */
+@media screen and (min-width : 672px) {
+
+  .microguide-column,
+  .microguide-story  {
+    width: 29.7293975539786%;
+    margin-left: 2.7026725049071%;
+  }
+  
+  .microguide-landing .first-story {
+    margin-left: 2.7026725049071%;
+    width: 62.1614676128643%;
+    
+  }
+
+  .responsive-margin-left {
+    margin-left: 2.7026725049071%;
+  }
+
+}
+
+
+/* Four column */
+@media screen and (min-width : 896px) {
+  
+  .microguide-column,
+  .microguide-story  {
+    width: 22.4487898286956%;
+    margin-left: 2.040799075336%;
+  }
+  
+  .microguide-landing .first-story {
+    margin-left: 2.040799075336%;
+    width: 46.9383787327272%;
+  }
+
+  .responsive-margin-left {
+    margin-left: 2.040799075336%;
+  }
+
+}
+
+/* Five column */
+@media screen and (min-width : 1184px) {
+
+  .microguide-column,
+  .microguide-story {
+    width: 18.0326718068357%;
+    margin-left: 1.6393338006214%;
+  }
+
+  .microguide-landing .first-story {
+    margin-left: 1.6393338006214%;
+    width: 37.7046774142928%;
+  }
+  
+  .responsive-margin-left {
+    margin-left: 1.6393338006214%;
+  }
+
+}
+
+
+/* Six column */
+@media screen and (min-width : 1568px) {
+
+  .microguide-column,
+  .microguide-story  {
+    width: 15.0684090161615%;
+    margin-left: 1.3698553651056%;
+  }
+  
+  .microguide-landing .first-story {
+    margin-left: 1.3698553651056%;
+    width: 31.5066733974286%;
+  }
+
+  .responsive-margin-left {
+    margin-left: 1.3698553651056%;
+  }
+
+  .microguide-landing .front-title {
+    width: 60%;
+  }
+
+}
+
+
+/* Seven column */
+
+@media screen and (min-width : 1792px) {
+
+  .microguide-column,
+  .microguide-story  {
+    width: 12.9411151670521%;
+    margin-left: 1.1764650151866%;
+  }
+
+  .microguide-landing .first-story {
+    margin-left: 1.3698553651056%;
+    width: 27.0586953492908%;
+  }
+
+  .responsive-margin-left {
+    margin-left: 1.1764650151866%;
+  }
+
+}
+
+/* For show all microguides page */
+
+.microguides-column {
+  float: left;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.microguides .microguides-header {
+  font-family: "abril-display", serif;
+  font-size: 1.25rem;
+  padding-bottom: 15px;
+}
+
+.microguides .microguides-header .button {
+  margin-left: 3rem;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+}
+
+.microguides-column img {
+  width: 100%;
+}
+
+.microguides-column.microguides-small-column {
+  
+}
+
+.microguides-column.microguides-small-column .small-box{
+  
+}
+
+.microguides-column.microguides-large-column {
+
+}
+
+.microguides-column.microguides-large-column .microguide-header {
+  background-color: #000;
+  width: 100%;
+  text-align: center;
+  padding-top: 1%; /* Vertical align hack. */
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.microguides-column.microguides-small-column .microguide-header {
+  background-color: #000;
+  height: 5px;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+.microguides-column.microguides-large-column .microguide-header .byc-modal-icon{
+  width: 25%;
+}
+
+.microguides-column.microguides-large-column .large-box{
+  
+}
+
+.microguides-column .img-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.microguides-column.microguides-large-column .large-box .slide-show-link{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.microguides-column.microguides-large-column .large-box .slide-show-icon{
+  background-image: url("/img/sprite/home-top-elements.png?r=1");
+  background-repeat: no-repeat;
+  background-size: 430px 200px;
+  background-position: -230px -105px;
+  height: 92px;
+  margin: -46px 0 0 -46px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 92px;
+}
+
+.microguides-column.microguides-small-column .small-box .slide-show-link{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.microguides-column.microguides-small-column .small-box .slide-show-icon{
+  background-image: url("/img/sprite/home-top-elements.png?r=1");
+  background-repeat: no-repeat;
+  background-size: 430px 200px;
+  background-position: -120px -130px;
+  height: 43px;
+  margin: -27px 0 0 -27px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 43px;
+}
+
+.microguides-column.microguides-small-column:hover .small-box .slide-show-icon{
+  background-position: -170px -130px;
+}
+
+
+.microguides-column.microguides-large-column .large-box:hover .slide-show-icon {
+  background-position: -330px -105px;
+}
+
+.microguides-column .microguide-info {
+  background-color: #eae9e9;
+  border-color: #bdb9b9;
+  border-top: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  margin-top: -8px;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 75px;
+  overflow: hidden;
+}
+
+.microguides-column .microguide-info .microguide-title {
+  font-family: "abril-display", serif;
+}
+
+.microguides-column.microguides-large-column .microguide-info .microguide-title {
+  font-size: 1.25rem;
+}
+
+.microguides-column .microguide-info .author {
+  font-size: .8125rem;
+}
+
+.microguides-column .story-box .img-container{
+  cursor: pointer;
+}
+
+.microguides-column .story-box .microguide-title{
+  cursor: pointer;
+  color: #222;
+}
+
+.microguides-column .story-box .microguide-title:hover{
+  color: #7D7D7D;
+}
+
+.microguides-column .delete {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  cursor: pointer;
+  background-image: url("/img/sprite/closebutton.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 52px 22px;
+  height: 23px;
+  width: 23px;
+  background-color: transparent !important;
+  display: none;
+  z-index: 1;
+
+}
+
+.microguides-column .delete:hover {
+  background-position: -30px 0;
+}
+
+.mymicroguides .microguides-column .delete {
+  display: inline-block;
+}
+
+.mymicroguides .slide-show-icon {
+  display: none;
+}
+
+.more-microguides.button {
+  float: right;
+  margin-right: 30px;
+  margin-top: -25px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  padding: 0.25em .5em;
+  border-color: transparent;
+  border-bottom: 1px solid #a69d9d;
+  border-bottom-left-radius: .5em;
+  border-bottom-right-radius: .5em;
+  box-shadow: .1em .15em .2em #cccccc;
+  background-color: black;
+  color: white;
+}
+
+.more-microguides.button:hover {
+  box-shadow: 0 .15em .2em #cccccc;
+  background-image: linear-gradient(bottom, rgb(187,184,184) 10%, rgb(219,219,219) 55%);
+  background-image: -o-linear-gradient(bottom, rgb(187,184,184) 10%, rgb(219,219,219) 55%);
+  background-image: -moz-linear-gradient(bottom, rgb(187,184,184) 10%, rgb(219,219,219) 55%);
+  background-image: -webkit-linear-gradient(bottom, rgb(187,184,184) 10%, rgb(219,219,219) 55%);
+  background-image: -ms-linear-gradient(bottom, rgb(187,184,184) 10%, rgb(219,219,219) 55%);
+  background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.1, rgb(187,184,184)), color-stop(0.55, rgb(219,219,219)) );
+  background-color: transparent;
+  color: black;
+}
+
+/* Five column */
+@media screen  {
+
+  .microguides-column.microguides-small-column {
+    width: 18.0326718068357%;
+    margin-left: 1.6393338006214%;
+  }
+
+  .microguides-column.microguides-large-column {
+    width: 31.1473422118071%;  
+    margin-left: 1.6393338006214%;
+  }
+  
+  .microguides .microguides-header {
+    margin-left: 1.6393338006214%;
+  }
+  
+}
+
+.microguide-create-header {
+  margin-top: -10px;
+  height: 3.5rem;
+  background-color: white;
+  box-shadow: .1em .15em .2em #cccccc;
+  position: relative;
+}
+
+.microguide-create-header .top-navigation {
+  text-align: left;
+  padding-top: 1rem;
+  text-transform: uppercase;
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  margin-left: 1rem;
+}
+
+.microguide-create-header .top-navigation .left-arrow {
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url('/img/sprite/microguide-create.png');
+  background-repeat: no-repeat;
+  background-position: -25px -25px;
+  background-size: 75px 195px;
+  width: 30px;
+  height: 20px;
+}
+
+.microguide-create-header .top-navigation-hoverable {
+  display: inline-block;
+}
+
+.microguide-create-header .top-navigation-hoverable:hover .left-arrow {
+  background-position: -25px -50px;
+}
+
+.microguide-create-header .top-navigation-hoverable:hover {
+  cursor: pointer;
+  color: #E44D37;
+}
+
+.microguide-create-header .about-my-microguides {
+  position: absolute;
+  margin-left: 14rem;
+  bottom: -6px;
+}
+
+.microguide-create-header .about-my-microguides-image {
+  display: inline-block;
+  background-image: url('/img/create-microguide.png');
+  background-repeat: no-repeat;
+  background-size: 311px 68px;
+  width: 311px;
+  height: 68px;
+}
+
+.microguide-create-header .about-my-microguides-text {
+  display: inline-block;
+  position: relative;
+  bottom: 1.25rem;
+  font-family: abril-display, serif;
+  font-size: 1.125rem;
+  margin-left: .5rem;
+}
+
+
+.microguide-create .submit-buttons {
+  float: right;
+  margin-top: .5rem;
+  margin-right: 1rem;
+}
+
+.microguide-create-header .top-navigation .my-microguides {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.25rem;
+  margin-left: .75rem;
+}
+
+.microguide-create hr.field-separator {
+
+  height: 0px;
+  border: 0;
+  color: #cccccc;
+  background-color: #cccccc;
+  border-top: 1px solid #cccccc;
+
+}
+
+.microguide-create .field-wrapper {
+  display: table;
+  border-spacing: 2rem .25rem;
+  width: 100%;
+}
+
+.microguide-create .field-wrapper:first-child {
+  margin-top: 1.25rem;
+}
+
+.microguide-create .field-row {
+  display: table-row;
+}
+
+.microguide-create .field-row.admin .field-label{
+  background-color: #ffcccc;
+}
+
+.microguide-create .field-label {
+  display: table-cell;
+  position: relative;
+  vertical-align: top;
+  text-align: right;
+  width: 40%;
+}
+
+.microguide-create .field-label-instruction {
+  font-size: .75rem;
+}
+
+.microguide-create .field-input {
+  display: table-cell;
+  vertical-align: top;
+  text-align: left;
+  margin: 0;
+}
+
+.microguide-create .microguide-access-type {
+  text-transform: uppercase;
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  color: #666666;
+}
+
+.microguide-create .field-input input[type=text],
+.microguide-create .field-input textarea {
+  width: 25em;
+}
+
+.microguide-create .word-count {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.microguide-create .word-count-exceeded {
+  color: #E44D37;
+}
+
+.microguide-create .tags {
+  max-width: 700px;
+}
+
+#tags {
+  float: none;
+}
+  
+.microguide-create .tag {
+  float: left;
+  color: #fff;
+  display: none;
+  background-color: #de7267;
+  padding: 5px 10px;
+  margin: 5px 5px 0 0;
+  border-radius: 5px;
+}
+
+.microguide-create .tag p {
+  float: left;
+  margin: 0;
+}
+
+.microguide-create .tag_close {
+  cursor: pointer;
+  float: right;
+  color: #666666;
+  padding: 0 5px;
+  margin: 0 0 0 -8px;
+  background-color: #f2f2f2;
+  border-radius: 9px;
+  line-height: 14pt;
+  font-size: 11pt;
+}
+
+.microguide-create .microguide-landing .story-box:hover {
+  opacity: 1;
+  z-index: 0;
+}
+
+.microguide-create .story-box .delete {
+  display: inline-block;
+  z-index: 1;
+}
+
+.microguide-create.stories-container {
+  background-color: #bcbcbc;
+}
+
+.microguide-create .microguide-landing {
+  margin-top: 0;
+}
+
+.microguide-create .microguide-landing .microguide-container {
+  padding-top: 1rem;
+}
+
+.microguide-create-footer {
+  margin-top: -10px;
+  padding-bottom: 5rem;
+  height: 3.5rem;
+  background-color: white;
+}
+
+.microguide-create .add-story-icon-wrapper {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.microguide-create .microguide-story,
+.microguide-create .microguide-story .story-box,
+.microguide-create .microguide-story.pending .story-box {
+  cursor: move;
+}
+
+.microguide-create .microguide-story.add-story,
+.microguide-create .microguide-story.add-story .story-box {
+  cursor: pointer;
+}
+
+.microguide-create .microguide-story .add-story-icon {
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url('/img/sprite/microguide-create.png');
+  background-repeat: no-repeat;
+  background-position: -25px -75px;
+  background-size: 75px 195px;
+  width: 41px;
+  height: 41px;
+}
+
+.microguide-create .microguide-story:hover .add-story-icon {
+  background-position: -25px -125px;
+}
+
+.microguide-create .microguide-story .add-story-label {
+  color: black;
+  font-family: "ff-dagny-web-pro",sans-serif;
+  font-size: 1.125rem;
+  margin-top: 1rem;
+}
+
+#new-story {
+  display: none;
+  padding: .5rem;
+  border: 1px solid #cdcccc;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: .1em .15em .2em #cccccc;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+  z-index: 1;
+}
+
+.new-story-carrot {
+  background-image: url('/img/sprite/microguide-create.png');
+  background-size: 50px 130px;
+  width: 16px;
+  height: 14px;
+  background-position: -17px -117px;
+  position: absolute;
+  top: -13px;
+  left: 50px;
+}
+
+#new-story input {
+  width: 20rem;
+  padding: .25rem 0 .25rem 30px;
+}
+
+.new-story-search-wrapper {
+  position: relative;
+}
+
+.new-story-search-wrapper .search-icon {
+  display: inline-block;
+  background-image: url("/img/sprite/search.png?r=1");
+  background-position: 2px -25px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 28px;
+  height: 30px;
+}
+
+/* Mobile */
+@media screen and (max-width : 671px) {
+
+  .search-results-header h5.search-results-text {
+    margin-top: 2rem;
+  }
+  
+  .microguide-landing .help-note {
+    display: none;
+  }
+
+  .microguide-landing .title-container {
+    margin: 0;
+  }
+
+  .microguide-landing .byc-icon {
+    height: 19px;
+    width: 70px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .microguide-landing {
+     margin-top: 0;
+  }
+
+  .microguides .microguides-header {
+    font-size: 1rem;
+  }
+
+  .microguides-column.microguides-small-column .microguide-header,
+  .microguides-column.microguides-large-column .microguide-header {
+    background-color: #000;
+    height: 5px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+  }
+
+  .microguides-column.microguides-large-column .microguide-header img {
+    display: none;
+  }
+
+  .microguides-column.microguides-large-column .microguide-info .microguide-title,
+  .microguides-column.microguides-small-column .microguide-info .microguide-title {
+    font-size: .8rem;
+  }
+
+  .microguides-column .microguide-info .author {
+    font-size: .65rem;
+  }
+
+  .microguides-column.microguides-large-column,
+  .microguides-column.microguides-small-column {
+    width: 31.1473422118071%;  
+    margin-left: 1.6393338006214%;
+  }
+
+  .microguides-column.microguides-small-column .small-box .slide-show-icon,
+  .microguides-column.microguides-large-column .large-box .slide-show-icon {
+    background-image: url('/img/sprite/home-top-elements.png?r=1');
+    background-repeat: no-repeat;
+    background-position: -83px -91px;
+    background-size: 300px 140px;
+    height: 30px;
+    width: 31px;
+    margin: -22px 0 0 -15px;
+  }
+
+  .microguides-column.microguides-small-column .small-box:hover .slide-show-icon,
+  .microguides-column.microguides-large-column .large-box:hover .slide-show-icon {
+    background-position: -118px -91px;
+  }
+
+}
+
+/* Six column */
+@media screen and (min-width : 1568px) {
+
+  .microguides-column.microguides-small-column {
+    width: 15.0684090161615%;
+    margin-left: 1.3698553651056%;
+  }
+  
+  .microguides .microguides-header {
+    margin-left: 1.3698553651056%;
+  }
+
+}
+
+
+/* Seven column */
+
+@media screen and (min-width : 1792px) {
+
+  .microguides-column.microguides-small-column {
+    width: 12.9411151670521%;
+    margin-left: 1.1764650151866%;
+  }
+
+  .microguides-column.microguides-large-column {
+    width: 23.529300303731125%; /* This is just from eyeing it in a debugger*/
+    margin-left: 1.1764650151866%;
+  }
+  
+  .microguides .microguides-header {
+    margin-left: 1.1764650151866%;
+  }
+
+}
+
+/* IE8 */
+@media \0screen {  
+
+  .microguide-landing .slide-show-icon,
+  .microguides-column.microguides-large-column .large-box .slide-show-icon,
+  .microguides-column.microguides-small-column .small-box .slide-show-icon {
+    background-image: url('/img/sprite/home-top-elements1x.png?r=1');
+  }
+
+}  

@@ -1,0 +1,194 @@
+.message .close-icon {
+  background-image: url("/img/sprite/search.png");
+  background-position: 0 -52px;
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 25px;
+  display: block;
+}
+
+.message-full-width {
+  position: relative;
+}
+
+.message-full-width .close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.message img.beacon {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+}
+
+/* message-specific styles */
+
+.message-microguide-wrapper {
+  background-color: #222B31;
+  text-align: left;
+}
+
+.message-microguide-spacer {
+  display: inline-block;
+  height: 100%;
+}
+
+.message-microguide-spacer-wide {
+  display: inline-block;
+  height: 100%;
+  width: 18.0326718068357%;
+}
+
+.message-microguide-content {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: .5rem;
+}
+
+.message-microguide-circle {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 5rem;
+  text-transform: uppercase;
+  background-color: #E64C2F;
+  color: black;
+  font-family: alternate-gothic-no-3-d, sans-serif;
+}
+
+.message-microguide-copy {
+  display:inline-block;
+  color: white;
+  font-family: abril-display, serif;
+  vertical-align: top;
+  text-align: left;
+  margin: 1rem 0 .5rem .75rem;
+}
+
+.message-microguide-headline {
+  font-size: 1.5rem;
+}
+
+.message-microguide-subline {
+  width: 13em;
+  margin: .5rem 0;
+}
+
+.message-microguide-button {
+  margin-left: 0;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.message-microguides-image {
+  display: inline-block;
+  background-image: url('/img/create-microguide.png');
+  background-repeat: no-repeat;
+  background-size: 466px 102px;
+  width: 466px;
+  height: 102px;
+  vertical-align: bottom;
+  position: relative;
+  left: -4rem;
+}
+
+.message-microguides-separator {
+  background-color: white;
+  height: .75rem;
+}
+
+.message-abut .message-microguides-separator {
+  height: 0;
+}
+
+.message-share-steps-container {
+  background-color: white;
+  border-top: 1px solid #cdcdcd;
+  border-bottom: 1px solid #cdcdcd;
+  text-align:center;
+}
+
+.message-share-steps {
+  text-align: left;
+  max-width: 50rem;
+  display: inline-block;
+}
+
+.message-share-steps-lead {
+  font-family: abril-display, serif;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  margin-top: .75rem;
+  margin-bottom: .75rem;
+}
+
+.message-share-steps-list-container {
+  color: white;
+  background-color: #9a9a9a;
+  border-radius: 5px;
+  padding: .375rem;
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+}
+
+.message-share-steps-list {
+  list-style-type: none;
+  display: table;
+  padding-left: 1rem;
+}
+
+.message-share-steps-list li {
+  display: table-cell;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.message-share-steps-list li:first-child {
+  padding-left: 0;
+}
+
+.message-share-steps-list li:last-child {
+  padding-right: 0;
+}
+
+.message-share-step-number {
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+
+/* Responsive elements */
+
+@media screen and (max-width : 1183px) {
+  .message-microguides-image {
+    display: none;
+  }
+}
+
+/* Mobile */
+
+@media screen and (max-width : 671px) {
+
+  .message-microguide-spacer,
+  .message-microguide-spacer-wide {
+    display: none;
+  }
+
+  .message-microguide-circle {
+    border-radius: 0;
+    height: auto;
+   }
+}
+
+/* IE8 */
+@media \0screen {
+
+  .message-microguides-image {
+     background-image: url('/img/create-microguide466.png');
+  }
+
+}

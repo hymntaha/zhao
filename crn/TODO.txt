@@ -1,0 +1,4 @@
+ - verify user table w/ proper info
+ - verify story table linking to users etc
+ - change all dates to mongo dates
+ - periodic cron to remove expired hashes from user->summon object
